@@ -1,5 +1,7 @@
 ---
 # vars file for dagger
+dagger_os: '{{ ansible_system | lower }}'
+dagger_arch: '{{ dagger_arch_map[ansible_architecture] }}'
 dagger_platform: '{{ dagger_os }}_{{ dagger_arch }}'
 dagger_name: dagger_v{{ dagger_ver }}_{{ dagger_platform }}
 dagger_archive: '{{ dagger_name }}.{{ dagger_archive_type | default("tar.gz") }}'

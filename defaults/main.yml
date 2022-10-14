@@ -1,8 +1,11 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.2.35
-dagger_os: linux
-dagger_arch: amd64
+dagger_ver: 0.2.36
+dagger_arch_map:
+  aarch64: arm64
+  arm64: arm64
+  armv7: armv7
+  x86_64: amd64
 dagger_parent_install_dir: /usr/local
 dagger_mirror: https://dagger-io.s3.amazonaws.com/dagger/releases
 dagger_checksums:
@@ -86,3 +89,21 @@ dagger_checksums:
     linux_armv7: sha256:95380e2bfb6c4e9759b51d0297e59d5691a01fa8aa32a687f2e9e6cecdfc8580
     # https://dagger-io.s3.amazonaws.com/dagger/releases/0.2.35/dagger_v0.2.35_linux_arm64.tar.gz
     linux_arm64: sha256:3d8e45d8018cadab7cc6eded3d45daf64c07c2b371a7ddc7d4dcb4c269cd3cee
+  # https://dagger-io.s3.amazonaws.com/dagger/releases/0.2.36/checksums.txt
+  '0.2.36':
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.2.36/dagger_v0.2.36_darwin_amd64.tar.gz
+    darwin_amd64: sha256:85a61b8b6459771cb99ea5e66ce8b5a785d2609ddd051f81b1e9046a6b3df62c
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.2.36/dagger_v0.2.36_darwin_arm64.tar.gz
+    darwin_arm64: sha256:a8fa38cda29632b179bf7bf8bf8365f40934477c21484fc737711f68564efea1
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.2.36/dagger_v0.2.36_linux_amd64.tar.gz
+    linux_amd64: sha256:81075f303a780ad29221c0bbc6f45828b382437424430d61dc27e541743776f0
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.2.36/dagger_v0.2.36_linux_armv7.tar.gz
+    linux_armv7: sha256:1b80313a7b8da648ab8de46647f2705cfee1998fc2cbcd03093601c130c09497
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.2.36/dagger_v0.2.36_linux_arm64.tar.gz
+    linux_arm64: sha256:ee054239e0aebea0b9e2b482600bb65aa9979c38210d359a5342ae84d772f8c2
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.2.36/dagger_v0.2.36_windows_arm64.zip
+    windows_arm64: sha256:65638dfe57582f0e037d79ae080adb4df2ff407060039d63a143ae09747b2d14
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.2.36/dagger_v0.2.36_windows_armv7.zip
+    windows_armv7: sha256:d9559a21d9c8c993a10407b5d83d74c4156bdb9dc7c9c19f4012258ab46f0cba
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.2.36/dagger_v0.2.36_windows_amd64.zip
+    windows_amd64: sha256:cbf411a59e19ab123fd7d656fe8aec2425fae780bde46e53f9571cf4d45c8285
