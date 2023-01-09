@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.2.36
+dagger_ver: 0.3.8
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -107,3 +107,21 @@ dagger_checksums:
     windows_armv7: sha256:d9559a21d9c8c993a10407b5d83d74c4156bdb9dc7c9c19f4012258ab46f0cba
     # https://dagger-io.s3.amazonaws.com/dagger/releases/0.2.36/dagger_v0.2.36_windows_amd64.zip
     windows_amd64: sha256:cbf411a59e19ab123fd7d656fe8aec2425fae780bde46e53f9571cf4d45c8285
+  # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.8/checksums.txt
+  '0.3.8':
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.8/dagger_v0.3.8_darwin_amd64.tar.gz
+    darwin_amd64: sha256:d889a9b447b3ec93ab8d9d6d763d4e806bf9727068c428aa45dcc3ed8b84a2b3
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.8/dagger_v0.3.8_darwin_arm64.tar.gz
+    darwin_arm64: sha256:46e3c38f6116e28ea3b7299ca71014a47c5dea9944dc004b8eafac71a9c956a9
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.8/dagger_v0.3.8_linux_amd64.tar.gz
+    linux_amd64: sha256:32410e900a1b6d4001304435ec1c3cc69bf4ff94d654497a2f25aa57ecd77642
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.8/dagger_v0.3.8_linux_armv7.tar.gz
+    linux_armv7: sha256:189b0cd77a462e71866807d3759f054d970795452eebe8454eeffb8d2eac2821
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.8/dagger_v0.3.8_linux_arm64.tar.gz
+    linux_arm64: sha256:41db4a9b793ad7d36b3b71e48b00f099d69fb7085857ce8c5c8504f3902c40ba
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.8/dagger_v0.3.8_windows_arm64.zip
+    windows_arm64: sha256:a20be48c48acdba04e8096a023d66f73b745303b12e66e059af6e9808dff6b48
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.8/dagger_v0.3.8_windows_armv7.zip
+    windows_armv7: sha256:f2645a5f48c2fad89e1f9beaf899dd24ef9ced43b1d16749fa0d5416e146d921
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.8/dagger_v0.3.8_windows_amd64.zip
+    windows_amd64: sha256:e21b3fe93add8bb26ab020e0deb8e5176ef86465f849d083dbdb822e9143c07d
