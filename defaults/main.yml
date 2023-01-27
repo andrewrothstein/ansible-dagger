@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.3.9
+dagger_ver: 0.3.10
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -143,3 +143,21 @@ dagger_checksums:
     windows_armv7: sha256:0ca28f9ebe5e3c47e27587e551bcf1671e6df0eb6a32bc95acc6202464212e3e
     # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.9/dagger_v0.3.9_windows_amd64.zip
     windows_amd64: sha256:aff125e7eff3f5ba26d8abda077c8683f3f6b82900577936096ba99df0268bfc
+  # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.10/checksums.txt
+  '0.3.10':
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.10/dagger_v0.3.10_darwin_amd64.tar.gz
+    darwin_amd64: sha256:9dc3554734c5579fba0f154aec8f84c748eecf2d33d1dd403c4ea6fb47f0870a
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.10/dagger_v0.3.10_darwin_arm64.tar.gz
+    darwin_arm64: sha256:45b90df82b32b542a4778c2e8eacade0e2c5d324a2edf79057a8e8e5d9a55867
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.10/dagger_v0.3.10_linux_amd64.tar.gz
+    linux_amd64: sha256:7b44f88c09f746d194a5499d60149dad8fedcb27f3817d1fda0b12f037658a5c
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.10/dagger_v0.3.10_linux_armv7.tar.gz
+    linux_armv7: sha256:2ae593638e3bbfcb45c06982add5004ce3a0a9837eca26e9182078be9d42b198
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.10/dagger_v0.3.10_linux_arm64.tar.gz
+    linux_arm64: sha256:4cdb1446e3520fc998abe677df690a9056fcc3fa05feef0272af11f0df161ce7
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.10/dagger_v0.3.10_windows_arm64.zip
+    windows_arm64: sha256:3402a8697497fc0cccfd5b90f5e5ded405c28c3f29a1fc7fd544e79223aa2652
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.10/dagger_v0.3.10_windows_armv7.zip
+    windows_armv7: sha256:b503d5a2afda0e2d8bd42ffd75bc6651fab8eecf74a50b9f30afb04e766df53c
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.10/dagger_v0.3.10_windows_amd64.zip
+    windows_amd64: sha256:17d8ad953dcaca9c12b4125bcbf8dc619004e2539c8a6e711d5c001e01237a94
