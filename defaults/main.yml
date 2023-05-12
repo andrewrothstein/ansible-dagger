@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.3.13
+dagger_ver: 0.5.2
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -197,3 +197,21 @@ dagger_checksums:
     windows_armv7: sha256:ab220a98ca2c73344860f866640c3c7ea5697f000bb5e237de588d868f00a5b1
     # https://dagger-io.s3.amazonaws.com/dagger/releases/0.3.13/dagger_v0.3.13_windows_amd64.zip
     windows_amd64: sha256:c3982ac436877304998036fadd44203448512359bcb41b381bb113061aa6c794
+  # https://dagger-io.s3.amazonaws.com/dagger/releases/0.5.2/checksums.txt
+  '0.5.2':
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.5.2/dagger_v0.5.2_darwin_amd64.tar.gz
+    darwin_amd64: sha256:6aebc86b96dd1058fda7eb7df9ac0f5aa9be5ab83aa1194f4ff16b1b54a13504
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.5.2/dagger_v0.5.2_darwin_arm64.tar.gz
+    darwin_arm64: sha256:37ce07f0e9edac1844bffa32b47eb8f818c7e453ef9ade24ab7c68041cd735c1
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.5.2/dagger_v0.5.2_linux_amd64.tar.gz
+    linux_amd64: sha256:41109dadf9a58f3f6b15268ffc3a92d6792b1bc8865759ac254472ca1c22e339
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.5.2/dagger_v0.5.2_linux_armv7.tar.gz
+    linux_armv7: sha256:c0c08de2a091beee59523592be20401b6f4a171437164393e437defba52e0a7b
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.5.2/dagger_v0.5.2_linux_arm64.tar.gz
+    linux_arm64: sha256:bd6874408be5fcbac03cd6542195de304bae3ad9548eb9a1bbde64136b31554a
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.5.2/dagger_v0.5.2_windows_arm64.zip
+    windows_arm64: sha256:64de1125489c495118745685f8c28216053bf33843f9ca006855b29d57b813b8
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.5.2/dagger_v0.5.2_windows_armv7.zip
+    windows_armv7: sha256:c7bb90473879512ba46a12b852dfd76d2f9851d1c6a0069fe3264e4c0915eae5
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.5.2/dagger_v0.5.2_windows_amd64.zip
+    windows_amd64: sha256:ca93cbf1b4ae03aa369e1c2b34977c3bc53a28ad4499a6989bbdd9ed187f07ba
