@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.5.2
+dagger_ver: 0.6.1
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -215,3 +215,21 @@ dagger_checksums:
     windows_armv7: sha256:c7bb90473879512ba46a12b852dfd76d2f9851d1c6a0069fe3264e4c0915eae5
     # https://dagger-io.s3.amazonaws.com/dagger/releases/0.5.2/dagger_v0.5.2_windows_amd64.zip
     windows_amd64: sha256:ca93cbf1b4ae03aa369e1c2b34977c3bc53a28ad4499a6989bbdd9ed187f07ba
+  # https://dagger-io.s3.amazonaws.com/dagger/releases/0.6.1/checksums.txt
+  '0.6.1':
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.6.1/dagger_v0.6.1_darwin_amd64.tar.gz
+    darwin_amd64: sha256:cd3ed4f4cbec722d721b3a5f913e42198ae1adbdb7a3bc5b723f94432f0e6dba
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.6.1/dagger_v0.6.1_darwin_arm64.tar.gz
+    darwin_arm64: sha256:578c825339b894c8c49d5ec932d4362e0d116b853312ada3fd337a475c53c2a9
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.6.1/dagger_v0.6.1_linux_amd64.tar.gz
+    linux_amd64: sha256:80083804e1bc4c2968dbcde763be9c6d5f2c12ea60264f1b8ca983a638dd4d81
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.6.1/dagger_v0.6.1_linux_armv7.tar.gz
+    linux_armv7: sha256:f80df764e013efcb9e8004c241e1a04aba01e380ad40a8d0deeae8d8655c6477
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.6.1/dagger_v0.6.1_linux_arm64.tar.gz
+    linux_arm64: sha256:a58c0f59e308d732cdf640cd6c1364172b77c519b481628524914f0c6694caff
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.6.1/dagger_v0.6.1_windows_arm64.zip
+    windows_arm64: sha256:896df11aa9a648095b9af30862bd84565bdea52e13764414a70cdbe6a4e1846c
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.6.1/dagger_v0.6.1_windows_armv7.zip
+    windows_armv7: sha256:b4c01d7a5bf689d06f0f9326cf1dd30d9b9ac30857885a848328648319a22141
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.6.1/dagger_v0.6.1_windows_amd64.zip
+    windows_amd64: sha256:33864eab3fd210bcf4d9d52a4b14c9f590977e826c75b41d8781eec2ee715965
