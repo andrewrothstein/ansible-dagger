@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.8.4
+dagger_ver: 0.8.7
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -377,3 +377,39 @@ dagger_checksums:
     windows_armv7: sha256:f5f689dda8b22ca9bdbe9ddee31a74305a32468b0bc9d4fb7603686c3643a715
     # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.4/dagger_v0.8.4_windows_amd64.zip
     windows_amd64: sha256:c2526472cf4573e06b33df6e17dd008c541f9f22d925565f1694a8acacaf17c3
+  # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.5/checksums.txt
+  '0.8.5':
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.5/dagger_v0.8.5_darwin_amd64.tar.gz
+    darwin_amd64: sha256:887fb2940fdbf2dcf8597d5389c99e84a64f52feb3a771b03172d97dcec237d2
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.5/dagger_v0.8.5_darwin_arm64.tar.gz
+    darwin_arm64: sha256:a1020e2509d28b556f284c3dfb3c93c3e352602bb573691b49f8f4b53d053c73
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.5/dagger_v0.8.5_linux_amd64.tar.gz
+    linux_amd64: sha256:f58c7ff2b727d6c475cf260b5467a83d8c51e219fd634b805f7526dcb33cf73d
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.5/dagger_v0.8.5_linux_armv7.tar.gz
+    linux_armv7: sha256:3a0c4b1aee5d67b0110949759c4dfd67f28db4449b70b4ca18601117a300e422
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.5/dagger_v0.8.5_linux_arm64.tar.gz
+    linux_arm64: sha256:b142e81d64217f929b3c2076cf0ad10a20f1ac1be59c463eb03f6ead51fc7b95
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.5/dagger_v0.8.5_windows_arm64.zip
+    windows_arm64: sha256:5724462f5e4f07e53fb82313ac267d7817d7e09cc9e0f2ef360d0a08eeba5e01
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.5/dagger_v0.8.5_windows_armv7.zip
+    windows_armv7: sha256:8c68a613cb61bfabfa04925cae1c0879fb8b7f144d09e70ccc0f6d63cfc2a15a
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.5/dagger_v0.8.5_windows_amd64.zip
+    windows_amd64: sha256:1ffddd36989a1ccdc1debea73957b67636b5ea3b69883485540cd70435cceb1d
+  # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.7/checksums.txt
+  '0.8.7':
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.7/dagger_v0.8.7_darwin_amd64.tar.gz
+    darwin_amd64: sha256:3c8b25160030cfb6728434fd50f0c85c1613960d15d3dbbede7cf71ab7145052
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.7/dagger_v0.8.7_darwin_arm64.tar.gz
+    darwin_arm64: sha256:8ba8df2a78a88e1161d47ec63746d349cb1f7a30f7b1cd40458b4c88f26ba333
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.7/dagger_v0.8.7_linux_amd64.tar.gz
+    linux_amd64: sha256:5fb5bcc437ed100a7daecf9f4cbe1035c767ab8aa278a47ebdbd4b975c129255
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.7/dagger_v0.8.7_linux_armv7.tar.gz
+    linux_armv7: sha256:8d935832da852980ad8360826f091a45662e956ec463e7ea42a535cc4678ce4a
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.7/dagger_v0.8.7_linux_arm64.tar.gz
+    linux_arm64: sha256:1a76ab69314501d057fa4ccdf35f4c5c199c8a9962656f12433c0641c87080fc
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.7/dagger_v0.8.7_windows_arm64.zip
+    windows_arm64: sha256:73cba891330ffa9355d954d431b001ead51cf5203af6b207312c00976818dc0a
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.7/dagger_v0.8.7_windows_armv7.zip
+    windows_armv7: sha256:d7b06f1c0121191fb3248bdd65891dd2e7f55a7e52e8b1dfea25d6be305cecb5
+    # https://dagger-io.s3.amazonaws.com/dagger/releases/0.8.7/dagger_v0.8.7_windows_amd64.zip
+    windows_amd64: sha256:93dc857b4ce81813507291029afcfebc8cac34dd11c40f1ed80c02eb48b9d86c
