@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.9.2
+dagger_ver: 0.9.3
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -63,3 +63,21 @@ dagger_checksums:
     windows_armv7: sha256:d0febd5f37242ff8ba83cb2650314c1623884d0eb76d59a0d323ef8a9b60c48f
     # https://github.com/dagger/dagger/releases/download/v0.9.2/dagger_v0.9.2_windows_amd64.zip
     windows_amd64: sha256:b60484abdaf044c1856215a7a2ba67f4fa1fc1615511d15beec15e7d1e316ec9
+  # https://github.com/dagger/dagger/releases/download/v0.9.3/checksums.txt
+  '0.9.3':
+    # https://github.com/dagger/dagger/releases/download/v0.9.3/dagger_v0.9.3_darwin_amd64.tar.gz
+    darwin_amd64: sha256:d609f505411d275f7a20a308702f544fa16f0aa87a8ca14fb2e4579a2565af40
+    # https://github.com/dagger/dagger/releases/download/v0.9.3/dagger_v0.9.3_darwin_arm64.tar.gz
+    darwin_arm64: sha256:9cc95a79b35122fa17859dc4e5647b87b02ac4db89edbc0a3b3e5ba4c80f0e1e
+    # https://github.com/dagger/dagger/releases/download/v0.9.3/dagger_v0.9.3_linux_amd64.tar.gz
+    linux_amd64: sha256:284e5f6abcfe65eae95e1f07a8ec0f2ec467f915fe44e23d77dadeec7be28e9e
+    # https://github.com/dagger/dagger/releases/download/v0.9.3/dagger_v0.9.3_linux_armv7.tar.gz
+    linux_armv7: sha256:b89e9a3d50738bc1586f6b615631fafe51db13c2226b11cde3cbee4a079d3c1b
+    # https://github.com/dagger/dagger/releases/download/v0.9.3/dagger_v0.9.3_linux_arm64.tar.gz
+    linux_arm64: sha256:e94568acac0f275557322788eacad5b9f621ddfb48149be84d461ac657307899
+    # https://github.com/dagger/dagger/releases/download/v0.9.3/dagger_v0.9.3_windows_arm64.zip
+    windows_arm64: sha256:affd7421f2d163c32ba111955b57858bdc0ba8c1e1d563664ec4d80bf0913a80
+    # https://github.com/dagger/dagger/releases/download/v0.9.3/dagger_v0.9.3_windows_armv7.zip
+    windows_armv7: sha256:429a4d87779eed9fdce439fcee971b0364bb2c0d285022af00827c48b88e9820
+    # https://github.com/dagger/dagger/releases/download/v0.9.3/dagger_v0.9.3_windows_amd64.zip
+    windows_amd64: sha256:c8884af65499dddbac522ad87edf949fd3b3acda1417cee122023f3c1a7a010a
