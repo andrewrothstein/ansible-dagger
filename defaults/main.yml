@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.9.5
+dagger_ver: 0.9.6
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -117,3 +117,21 @@ dagger_checksums:
     windows_armv7: sha256:27e518b4d1b085b9b484a24cbf5585e8ca30a4c4425d775a7e90b9c1eba14777
     # https://github.com/dagger/dagger/releases/download/v0.9.5/dagger_v0.9.5_windows_amd64.zip
     windows_amd64: sha256:0fafbb78f8275c19d4d3d70093d9a65b92aa6336291394d23c4a46a0a736fa59
+  # https://github.com/dagger/dagger/releases/download/v0.9.6/checksums.txt
+  '0.9.6':
+    # https://github.com/dagger/dagger/releases/download/v0.9.6/dagger_v0.9.6_darwin_amd64.tar.gz
+    darwin_amd64: sha256:b062f44a3b56bcc1f577fbbcdc02bbbf5ed0a7b3961e7b81fc90e6a1762bce8a
+    # https://github.com/dagger/dagger/releases/download/v0.9.6/dagger_v0.9.6_darwin_arm64.tar.gz
+    darwin_arm64: sha256:b1f874d58bab0f2d2d48ac0aa50100e24773ddc5a16a4b6cd77ed76792cf2ddf
+    # https://github.com/dagger/dagger/releases/download/v0.9.6/dagger_v0.9.6_linux_amd64.tar.gz
+    linux_amd64: sha256:e4a5095366d8cbb01d87a7fb717a5873632f2b4cafdda9a8a3bd57eef26d42e8
+    # https://github.com/dagger/dagger/releases/download/v0.9.6/dagger_v0.9.6_linux_armv7.tar.gz
+    linux_armv7: sha256:f7db33a2275eedab0edc269a23a01aad385a474b6c32a9c142c3dc390b7e6c42
+    # https://github.com/dagger/dagger/releases/download/v0.9.6/dagger_v0.9.6_linux_arm64.tar.gz
+    linux_arm64: sha256:f6ef4f5a61c11d3c957086fbd38a2746c89e46650005b0b87d838f6556cbded7
+    # https://github.com/dagger/dagger/releases/download/v0.9.6/dagger_v0.9.6_windows_arm64.zip
+    windows_arm64: sha256:34d15f0d28fd21a5eb5765281f4c1bfaa74ef431e484a8d9d9f1263e9a4e93d2
+    # https://github.com/dagger/dagger/releases/download/v0.9.6/dagger_v0.9.6_windows_armv7.zip
+    windows_armv7: sha256:b9027dde5408739751ce616cd34f32b3c7ebb3ae606ef2b91c2c63663f140a04
+    # https://github.com/dagger/dagger/releases/download/v0.9.6/dagger_v0.9.6_windows_amd64.zip
+    windows_amd64: sha256:5d7d0b962cf59498eb7177eababe90d3ddfb87a8da945c63efff0b925a774bda

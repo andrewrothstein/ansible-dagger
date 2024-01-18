@@ -1,10 +1,14 @@
 ---
-- hosts: all
-  roles:
-  - role: '{{ playbook_dir }}'
+- name: Testing andrewrothstein.dagger
+  hosts: all
   tasks:
-  - command: /usr/local/bin/dagger version
-    register: dagger_test_output
-  - name: dagger version
-    debug:
-      msg: '{{ dagger_test_output.stdout }}'
+    - name: Testing andrewrothstein.dagger
+      ansible.builtin.include_role:
+        name: '{{ playbook_dir }}'
+    - name: Executing 'dagger version'
+      ansible.builtin.command: /usr/local/bin/dagger version
+      changed_when: false
+      register: dagger_test_output
+    - name: Output of 'dagger version'
+      ansible.builtin.debug:
+        msg: '{{ dagger_test_output.stdout }}'
