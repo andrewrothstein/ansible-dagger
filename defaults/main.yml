@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.9.6
+dagger_ver: 0.9.7
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -135,3 +135,21 @@ dagger_checksums:
     windows_armv7: sha256:b9027dde5408739751ce616cd34f32b3c7ebb3ae606ef2b91c2c63663f140a04
     # https://github.com/dagger/dagger/releases/download/v0.9.6/dagger_v0.9.6_windows_amd64.zip
     windows_amd64: sha256:5d7d0b962cf59498eb7177eababe90d3ddfb87a8da945c63efff0b925a774bda
+  # https://github.com/dagger/dagger/releases/download/v0.9.7/checksums.txt
+  '0.9.7':
+    # https://github.com/dagger/dagger/releases/download/v0.9.7/dagger_v0.9.7_darwin_amd64.tar.gz
+    darwin_amd64: sha256:e1f50b9f1ff777d0c2f2465952d97c8b637f874ab47db5ece2ff9275a5890b0d
+    # https://github.com/dagger/dagger/releases/download/v0.9.7/dagger_v0.9.7_darwin_arm64.tar.gz
+    darwin_arm64: sha256:eb08c1a80114dc1402992e789bc707b517cc147e6539b69274c963ce43c59689
+    # https://github.com/dagger/dagger/releases/download/v0.9.7/dagger_v0.9.7_linux_amd64.tar.gz
+    linux_amd64: sha256:81df7261a99cafcb363f9167afa1e15f5b24927dcec0aa1ec3e92c0d4ffb44ef
+    # https://github.com/dagger/dagger/releases/download/v0.9.7/dagger_v0.9.7_linux_armv7.tar.gz
+    linux_armv7: sha256:970eda9477327dbdf00bf3f9f5d4e754ed88911da188c411207d92cf899d61dc
+    # https://github.com/dagger/dagger/releases/download/v0.9.7/dagger_v0.9.7_linux_arm64.tar.gz
+    linux_arm64: sha256:7560aeb38ded67621dbe8ef227a8f8a4ed72d3645a6eda2f578925c458606e60
+    # https://github.com/dagger/dagger/releases/download/v0.9.7/dagger_v0.9.7_windows_arm64.zip
+    windows_arm64: sha256:4ec6e2933e9ceb5ef9ab0639df899b3d0f77fd3e2ea92cec693b4eb9a778a5d0
+    # https://github.com/dagger/dagger/releases/download/v0.9.7/dagger_v0.9.7_windows_armv7.zip
+    windows_armv7: sha256:5cc3e7500d096fdc7ff5249b850def35f247172f2f9e6525df6b95bff188c18b
+    # https://github.com/dagger/dagger/releases/download/v0.9.7/dagger_v0.9.7_windows_amd64.zip
+    windows_amd64: sha256:c1ccac5be92571a5e2350112b5321c3c6d055003b0f833d01f5a2bc938a5fc77
