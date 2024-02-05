@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.9.7
+dagger_ver: 0.9.8
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -153,3 +153,21 @@ dagger_checksums:
     windows_armv7: sha256:5cc3e7500d096fdc7ff5249b850def35f247172f2f9e6525df6b95bff188c18b
     # https://github.com/dagger/dagger/releases/download/v0.9.7/dagger_v0.9.7_windows_amd64.zip
     windows_amd64: sha256:c1ccac5be92571a5e2350112b5321c3c6d055003b0f833d01f5a2bc938a5fc77
+  # https://github.com/dagger/dagger/releases/download/v0.9.8/checksums.txt
+  '0.9.8':
+    # https://github.com/dagger/dagger/releases/download/v0.9.8/dagger_v0.9.8_darwin_amd64.tar.gz
+    darwin_amd64: sha256:6e418f15ee5d74e5435ebf3c2e4bf9ceb53485ebc10ea2d45c03193a893e020f
+    # https://github.com/dagger/dagger/releases/download/v0.9.8/dagger_v0.9.8_darwin_arm64.tar.gz
+    darwin_arm64: sha256:bb143bb9d0b72c40b9e3c0f98ea8f09dd06ec65f8b34e445a3bb3f7595225ef2
+    # https://github.com/dagger/dagger/releases/download/v0.9.8/dagger_v0.9.8_linux_amd64.tar.gz
+    linux_amd64: sha256:f08b42b8e39da2bef8c1b57f1d6154b5f6531cd099bdc4c85dd90f4841e38185
+    # https://github.com/dagger/dagger/releases/download/v0.9.8/dagger_v0.9.8_linux_armv7.tar.gz
+    linux_armv7: sha256:bf52858af8dafad7f7300cf1d835db821966b6fe2a8adf98d7fc42d56cdd7b7c
+    # https://github.com/dagger/dagger/releases/download/v0.9.8/dagger_v0.9.8_linux_arm64.tar.gz
+    linux_arm64: sha256:ce005091fbd1df5c5c05bfe5a717f6acc52d3eaeb6b1249a0f59811bc3e0e5d3
+    # https://github.com/dagger/dagger/releases/download/v0.9.8/dagger_v0.9.8_windows_arm64.zip
+    windows_arm64: sha256:258083b958150cb1e5f3e9d9646bc7adc3aae9cddf310a0432abfd7207c1e1ca
+    # https://github.com/dagger/dagger/releases/download/v0.9.8/dagger_v0.9.8_windows_armv7.zip
+    windows_armv7: sha256:121a88fbe2f3d8a6a8c1250f28281d9be0fccecbba50591b6b8ab41681a97d44
+    # https://github.com/dagger/dagger/releases/download/v0.9.8/dagger_v0.9.8_windows_amd64.zip
+    windows_amd64: sha256:aa7e7449ad30e7d2e6399269d90da3dd0a5529880319475acb4d1ea1ea8ea02c
