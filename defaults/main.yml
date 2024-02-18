@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.9.8
+dagger_ver: 0.9.9
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -171,3 +171,21 @@ dagger_checksums:
     windows_armv7: sha256:121a88fbe2f3d8a6a8c1250f28281d9be0fccecbba50591b6b8ab41681a97d44
     # https://github.com/dagger/dagger/releases/download/v0.9.8/dagger_v0.9.8_windows_amd64.zip
     windows_amd64: sha256:aa7e7449ad30e7d2e6399269d90da3dd0a5529880319475acb4d1ea1ea8ea02c
+  # https://github.com/dagger/dagger/releases/download/v0.9.9/checksums.txt
+  '0.9.9':
+    # https://github.com/dagger/dagger/releases/download/v0.9.9/dagger_v0.9.9_darwin_amd64.tar.gz
+    darwin_amd64: sha256:116774d757176c545ae3ecde07e5198896373a3dcca4eca542a4da1dd572f88c
+    # https://github.com/dagger/dagger/releases/download/v0.9.9/dagger_v0.9.9_darwin_arm64.tar.gz
+    darwin_arm64: sha256:6aea64ec9043626ba888f12d07de64af46f6472f53e8541ca95290c7969d9173
+    # https://github.com/dagger/dagger/releases/download/v0.9.9/dagger_v0.9.9_linux_amd64.tar.gz
+    linux_amd64: sha256:7a804b0cd331b08ca02854c4f890a3a37fe6c9ad92382df41dd16e442a32a2d3
+    # https://github.com/dagger/dagger/releases/download/v0.9.9/dagger_v0.9.9_linux_armv7.tar.gz
+    linux_armv7: sha256:f8bd39522abb7fd205e7beeb06f9735b975ea1508d1f6af581b525061ca12b35
+    # https://github.com/dagger/dagger/releases/download/v0.9.9/dagger_v0.9.9_linux_arm64.tar.gz
+    linux_arm64: sha256:8c78c94701552f2d2362270240f674cab5f1f20b587bc2272fa3f65940f212ec
+    # https://github.com/dagger/dagger/releases/download/v0.9.9/dagger_v0.9.9_windows_arm64.zip
+    windows_arm64: sha256:38cbc066af0311636ba28673be3bee597def6fcd4553e2d7eaba371036cbc08b
+    # https://github.com/dagger/dagger/releases/download/v0.9.9/dagger_v0.9.9_windows_armv7.zip
+    windows_armv7: sha256:08e40d80f902ed0b5c2228b8e18e03eca100b775824406cc1438511f4ee89492
+    # https://github.com/dagger/dagger/releases/download/v0.9.9/dagger_v0.9.9_windows_amd64.zip
+    windows_amd64: sha256:f6a405eac134626861383c02c9c108880c6547bde8b35f47b175c1a9adcc2b0a
