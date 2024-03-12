@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.9.9
+dagger_ver: 0.10.1
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -189,3 +189,21 @@ dagger_checksums:
     windows_armv7: sha256:08e40d80f902ed0b5c2228b8e18e03eca100b775824406cc1438511f4ee89492
     # https://github.com/dagger/dagger/releases/download/v0.9.9/dagger_v0.9.9_windows_amd64.zip
     windows_amd64: sha256:f6a405eac134626861383c02c9c108880c6547bde8b35f47b175c1a9adcc2b0a
+  # https://github.com/dagger/dagger/releases/download/v0.10.1/checksums.txt
+  '0.10.1':
+    # https://github.com/dagger/dagger/releases/download/v0.10.1/dagger_v0.10.1_darwin_amd64.tar.gz
+    darwin_amd64: sha256:5be9d409bc3bc7f60bb2e1608eeccbe5080cc1d8a6837e58240a0c801487b7cf
+    # https://github.com/dagger/dagger/releases/download/v0.10.1/dagger_v0.10.1_darwin_arm64.tar.gz
+    darwin_arm64: sha256:cd5cf8e0079fce08000beccbad022c55d966025c12058b3a8528f225bad3a824
+    # https://github.com/dagger/dagger/releases/download/v0.10.1/dagger_v0.10.1_linux_amd64.tar.gz
+    linux_amd64: sha256:86034aebc528214c6bc653971ca98c811f6c654e5414b8076b85222d14bf6a55
+    # https://github.com/dagger/dagger/releases/download/v0.10.1/dagger_v0.10.1_linux_armv7.tar.gz
+    linux_armv7: sha256:6691e866cb215ab48a819c188f5a252c1ea3f30fbb78f9eb8009c553a50c0fc7
+    # https://github.com/dagger/dagger/releases/download/v0.10.1/dagger_v0.10.1_linux_arm64.tar.gz
+    linux_arm64: sha256:932a6558fdd41fffb56746a91cdd89937da2eb586a7e9092bcbfbc0b444e8f47
+    # https://github.com/dagger/dagger/releases/download/v0.10.1/dagger_v0.10.1_windows_arm64.zip
+    windows_arm64: sha256:0f09fde0c664b50597fa935b656aa034ab3df34f710b68e064da65026121d89f
+    # https://github.com/dagger/dagger/releases/download/v0.10.1/dagger_v0.10.1_windows_armv7.zip
+    windows_armv7: sha256:916b5b893aed1140eac34952b3ec34fc872692aea876f76df68b6b505a64e431
+    # https://github.com/dagger/dagger/releases/download/v0.10.1/dagger_v0.10.1_windows_amd64.zip
+    windows_amd64: sha256:ce11e582bb731db84742c2ae28675939e0856ad79123a2afab217779e4176119
