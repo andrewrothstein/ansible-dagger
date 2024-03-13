@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.10.1
+dagger_ver: 0.10.2
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -207,3 +207,21 @@ dagger_checksums:
     windows_armv7: sha256:916b5b893aed1140eac34952b3ec34fc872692aea876f76df68b6b505a64e431
     # https://github.com/dagger/dagger/releases/download/v0.10.1/dagger_v0.10.1_windows_amd64.zip
     windows_amd64: sha256:ce11e582bb731db84742c2ae28675939e0856ad79123a2afab217779e4176119
+  # https://github.com/dagger/dagger/releases/download/v0.10.2/checksums.txt
+  '0.10.2':
+    # https://github.com/dagger/dagger/releases/download/v0.10.2/dagger_v0.10.2_darwin_amd64.tar.gz
+    darwin_amd64: sha256:6c38dc5e20555ecd84687963a14629a1c42255eeefd3028204ab971b9733564c
+    # https://github.com/dagger/dagger/releases/download/v0.10.2/dagger_v0.10.2_darwin_arm64.tar.gz
+    darwin_arm64: sha256:99b2a56b77fc841969df99e3eb62d1755bde37ac5627fddc5d81428852b829da
+    # https://github.com/dagger/dagger/releases/download/v0.10.2/dagger_v0.10.2_linux_amd64.tar.gz
+    linux_amd64: sha256:83796fcb7dd319832972f5ec9138db6d344ea12c8d3a4fef4e6b391de051d890
+    # https://github.com/dagger/dagger/releases/download/v0.10.2/dagger_v0.10.2_linux_armv7.tar.gz
+    linux_armv7: sha256:5434690fd249a580afcd109a8dfc3b151a32dd274ca0afbc1b6f3dabef62f90a
+    # https://github.com/dagger/dagger/releases/download/v0.10.2/dagger_v0.10.2_linux_arm64.tar.gz
+    linux_arm64: sha256:f8aaa15611f9562c90da7e86fe9e2d0a5d8591ff12083abc7e25b619d6ac5add
+    # https://github.com/dagger/dagger/releases/download/v0.10.2/dagger_v0.10.2_windows_arm64.zip
+    windows_arm64: sha256:061898d47c0161ad7bd6c093954bb04406ab1831ac54de0f870ce8c45cac033d
+    # https://github.com/dagger/dagger/releases/download/v0.10.2/dagger_v0.10.2_windows_armv7.zip
+    windows_armv7: sha256:d6429bc587b51357eca73881f6d99c452a1bcaca7af34787c3a44acb4a685679
+    # https://github.com/dagger/dagger/releases/download/v0.10.2/dagger_v0.10.2_windows_amd64.zip
+    windows_amd64: sha256:219b6fc582c711f80116a90767b53a110c45077a83aa2481386fd2561a6d6d4c
