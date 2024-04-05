@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.10.3
+dagger_ver: 0.11.0
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -243,3 +243,21 @@ dagger_checksums:
     windows_armv7: sha256:ef9c15f14fd0b57533f40661d262010927c0b28cc58eb61d10be02fb7b690a52
     # https://github.com/dagger/dagger/releases/download/v0.10.3/dagger_v0.10.3_windows_amd64.zip
     windows_amd64: sha256:30f187c33ccd568d3b7da3dd32b7d2dd0e454f16329b8c79673ba9facf682e85
+  # https://github.com/dagger/dagger/releases/download/v0.11.0/checksums.txt
+  '0.11.0':
+    # https://github.com/dagger/dagger/releases/download/v0.11.0/dagger_v0.11.0_darwin_amd64.tar.gz
+    darwin_amd64: sha256:87a0ddc7da20f42e6edff8e3e542c24524f4aa6886c9520499ba1a8654b69cb1
+    # https://github.com/dagger/dagger/releases/download/v0.11.0/dagger_v0.11.0_darwin_arm64.tar.gz
+    darwin_arm64: sha256:902f51639879b54caccda77d00ff5b24de79a44431e2b4195cdd30b654da691d
+    # https://github.com/dagger/dagger/releases/download/v0.11.0/dagger_v0.11.0_linux_amd64.tar.gz
+    linux_amd64: sha256:a70c321eda73c8cc68919b06d9a04031966440b0e638f1a83cffe678cec96dc6
+    # https://github.com/dagger/dagger/releases/download/v0.11.0/dagger_v0.11.0_linux_armv7.tar.gz
+    linux_armv7: sha256:15e1f78d252e5da5eca05162a3fcb89379c73b47728cc10af621ee20618369a1
+    # https://github.com/dagger/dagger/releases/download/v0.11.0/dagger_v0.11.0_linux_arm64.tar.gz
+    linux_arm64: sha256:cfef1592b54e1cdedb6d3db6cf5237b7bb82c9b65c4afac36383d86eec0c7cf6
+    # https://github.com/dagger/dagger/releases/download/v0.11.0/dagger_v0.11.0_windows_arm64.zip
+    windows_arm64: sha256:c4d5ed6847c1905f57ed2c1cb4c24269057fcc00fffcfff3e4d2af5df035b930
+    # https://github.com/dagger/dagger/releases/download/v0.11.0/dagger_v0.11.0_windows_armv7.zip
+    windows_armv7: sha256:e6a760ca44da2a968ab58043a6765c02fc6f02881f065e0cc15282bd91c06669
+    # https://github.com/dagger/dagger/releases/download/v0.11.0/dagger_v0.11.0_windows_amd64.zip
+    windows_amd64: sha256:56a4a5659c38770767dab65dda8d0af8c9e34192e3a00a2d928b02f9f676458f
