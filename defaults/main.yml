@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.11.0
+dagger_ver: 0.11.1
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -261,3 +261,21 @@ dagger_checksums:
     windows_armv7: sha256:e6a760ca44da2a968ab58043a6765c02fc6f02881f065e0cc15282bd91c06669
     # https://github.com/dagger/dagger/releases/download/v0.11.0/dagger_v0.11.0_windows_amd64.zip
     windows_amd64: sha256:56a4a5659c38770767dab65dda8d0af8c9e34192e3a00a2d928b02f9f676458f
+  # https://github.com/dagger/dagger/releases/download/v0.11.1/checksums.txt
+  '0.11.1':
+    # https://github.com/dagger/dagger/releases/download/v0.11.1/dagger_v0.11.1_darwin_amd64.tar.gz
+    darwin_amd64: sha256:4f281fac1fe39195fa80a21cf2826bd13f516e8fecea7cabb90d0c4be8871100
+    # https://github.com/dagger/dagger/releases/download/v0.11.1/dagger_v0.11.1_darwin_arm64.tar.gz
+    darwin_arm64: sha256:c048771f1b2825007e3147ea9ad7464da542195fb17792ac85d42d54619017e7
+    # https://github.com/dagger/dagger/releases/download/v0.11.1/dagger_v0.11.1_linux_amd64.tar.gz
+    linux_amd64: sha256:12b98491a5dbe3047ee32ffffa40b680e9cce6f644f942ae3d1362390a6dd7c3
+    # https://github.com/dagger/dagger/releases/download/v0.11.1/dagger_v0.11.1_linux_armv7.tar.gz
+    linux_armv7: sha256:f223f0976481d848e053ad061a5481a5dec2f2fe9e19475fb1b643b047fe8cfa
+    # https://github.com/dagger/dagger/releases/download/v0.11.1/dagger_v0.11.1_linux_arm64.tar.gz
+    linux_arm64: sha256:eae126ed97fbfb7417708576bc482e9fe450a56dcaff0668672c38a27654f850
+    # https://github.com/dagger/dagger/releases/download/v0.11.1/dagger_v0.11.1_windows_arm64.zip
+    windows_arm64: sha256:67ef0eb454d9310a9f42f3953130e9da4540c7ffa74a336c97f0dad632d5aae2
+    # https://github.com/dagger/dagger/releases/download/v0.11.1/dagger_v0.11.1_windows_armv7.zip
+    windows_armv7: sha256:49a7c9627e8daab1fc0e1522e6648fdd9797de49ff718871cb21f7310096bc94
+    # https://github.com/dagger/dagger/releases/download/v0.11.1/dagger_v0.11.1_windows_amd64.zip
+    windows_amd64: sha256:52a97d4246346393b8c54496b13778e9630cb020f7f7dc31a2ca1e2ec61b1417
