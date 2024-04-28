@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.11.1
+dagger_ver: 0.11.2
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -279,3 +279,21 @@ dagger_checksums:
     windows_armv7: sha256:49a7c9627e8daab1fc0e1522e6648fdd9797de49ff718871cb21f7310096bc94
     # https://github.com/dagger/dagger/releases/download/v0.11.1/dagger_v0.11.1_windows_amd64.zip
     windows_amd64: sha256:52a97d4246346393b8c54496b13778e9630cb020f7f7dc31a2ca1e2ec61b1417
+  # https://github.com/dagger/dagger/releases/download/v0.11.2/checksums.txt
+  '0.11.2':
+    # https://github.com/dagger/dagger/releases/download/v0.11.2/dagger_v0.11.2_darwin_amd64.tar.gz
+    darwin_amd64: sha256:7d21142b79fc2827099f1b4023c31215fd6aa817a7e4df803840b973766356e3
+    # https://github.com/dagger/dagger/releases/download/v0.11.2/dagger_v0.11.2_darwin_arm64.tar.gz
+    darwin_arm64: sha256:a38748f17850d7167006347ea060c72f6dd540ae1235063074796e8a257bed38
+    # https://github.com/dagger/dagger/releases/download/v0.11.2/dagger_v0.11.2_linux_amd64.tar.gz
+    linux_amd64: sha256:2a3c1b8669fc7995d7f4514c156557a03509a4a5c85d321afaeb7aabaf0e20ae
+    # https://github.com/dagger/dagger/releases/download/v0.11.2/dagger_v0.11.2_linux_armv7.tar.gz
+    linux_armv7: sha256:8c2cdaba0d994a695c5245d80a7c524299d14063df1e0434e23dce61f90e2136
+    # https://github.com/dagger/dagger/releases/download/v0.11.2/dagger_v0.11.2_linux_arm64.tar.gz
+    linux_arm64: sha256:52b1ccbba4caec8a9450c1bb4a04affda9d927f24459b71f1937dd8d8ba01c00
+    # https://github.com/dagger/dagger/releases/download/v0.11.2/dagger_v0.11.2_windows_arm64.zip
+    windows_arm64: sha256:3789e6528ba626f1c00e4870e58c03699c7daa573d3f55248d6ad11f9f772855
+    # https://github.com/dagger/dagger/releases/download/v0.11.2/dagger_v0.11.2_windows_armv7.zip
+    windows_armv7: sha256:6a662e4e60859a4e096f295c4b3c3956f1d0af0637556e96b4c0a8c4e5ebbb59
+    # https://github.com/dagger/dagger/releases/download/v0.11.2/dagger_v0.11.2_windows_amd64.zip
+    windows_amd64: sha256:f16bb092b8df1f591915cdd54ff02c363300cc449f240ab095b203cd3e3bd5b4
