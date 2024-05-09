@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.11.2
+dagger_ver: 0.11.3
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -297,3 +297,21 @@ dagger_checksums:
     windows_armv7: sha256:6a662e4e60859a4e096f295c4b3c3956f1d0af0637556e96b4c0a8c4e5ebbb59
     # https://github.com/dagger/dagger/releases/download/v0.11.2/dagger_v0.11.2_windows_amd64.zip
     windows_amd64: sha256:f16bb092b8df1f591915cdd54ff02c363300cc449f240ab095b203cd3e3bd5b4
+  # https://github.com/dagger/dagger/releases/download/v0.11.3/checksums.txt
+  '0.11.3':
+    # https://github.com/dagger/dagger/releases/download/v0.11.3/dagger_v0.11.3_darwin_amd64.tar.gz
+    darwin_amd64: sha256:58fd411ee971740e81b050900ae4f1a5708d007027054f8df8ff93edb1307cff
+    # https://github.com/dagger/dagger/releases/download/v0.11.3/dagger_v0.11.3_darwin_arm64.tar.gz
+    darwin_arm64: sha256:eb76209ed3c6d1145210efc47c51cbf525fad74c73407ca2209f18afc8bd9baf
+    # https://github.com/dagger/dagger/releases/download/v0.11.3/dagger_v0.11.3_linux_amd64.tar.gz
+    linux_amd64: sha256:7b253f02e1972b73e13c8d02611e33b81b2e819406d007a8f9b3ceb2c72db919
+    # https://github.com/dagger/dagger/releases/download/v0.11.3/dagger_v0.11.3_linux_armv7.tar.gz
+    linux_armv7: sha256:90539bd5a91b8a8b35b429d755998ca9416d3eb00978604a8600e1dccfcc6bc8
+    # https://github.com/dagger/dagger/releases/download/v0.11.3/dagger_v0.11.3_linux_arm64.tar.gz
+    linux_arm64: sha256:35bcacfb5884d81952712a9255fb026fd0d11148ab762c1cbdd37e39a68c93ae
+    # https://github.com/dagger/dagger/releases/download/v0.11.3/dagger_v0.11.3_windows_arm64.zip
+    windows_arm64: sha256:660e2ccd9c22b999852d81e45238ac49a523c4eba235ed18636b755d594d5298
+    # https://github.com/dagger/dagger/releases/download/v0.11.3/dagger_v0.11.3_windows_armv7.zip
+    windows_armv7: sha256:a0aa8ba1756c715b811839e26947692d4496956f01fe50bde719bf514adee9f0
+    # https://github.com/dagger/dagger/releases/download/v0.11.3/dagger_v0.11.3_windows_amd64.zip
+    windows_amd64: sha256:41aa28848daac7dd97ce5e345979d300f926a7509cf46af8db63723066420dab
