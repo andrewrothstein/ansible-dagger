@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.11.4
+dagger_ver: 0.11.5
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -333,3 +333,21 @@ dagger_checksums:
     windows_armv7: sha256:787aa6a2cf380c7f022f3eb39517a7675bb4e00a402a9157f75dbc67599349ab
     # https://github.com/dagger/dagger/releases/download/v0.11.4/dagger_v0.11.4_windows_amd64.zip
     windows_amd64: sha256:79b83f0a5a1e005600dca72b1f7357e4cc8f85745fec3157673802ac66845d79
+  # https://github.com/dagger/dagger/releases/download/v0.11.5/checksums.txt
+  '0.11.5':
+    # https://github.com/dagger/dagger/releases/download/v0.11.5/dagger_v0.11.5_darwin_amd64.tar.gz
+    darwin_amd64: sha256:004b61f1e64cdf1686e5555280b6f1d88886f71c5e110aee7e5b5961dec30c2f
+    # https://github.com/dagger/dagger/releases/download/v0.11.5/dagger_v0.11.5_darwin_arm64.tar.gz
+    darwin_arm64: sha256:546c2e84bb09f182227c694c57f33a2fe4a81f533963808871b94ed4401f60dc
+    # https://github.com/dagger/dagger/releases/download/v0.11.5/dagger_v0.11.5_linux_amd64.tar.gz
+    linux_amd64: sha256:88038569fc7a5cd964ff9b833bda84b8d2917d75ef28e5d32df7dc524faa3721
+    # https://github.com/dagger/dagger/releases/download/v0.11.5/dagger_v0.11.5_linux_armv7.tar.gz
+    linux_armv7: sha256:c91e830011adee5d4787b655480abdb5f09f94ecb9e38d08b1c26a09026e48d8
+    # https://github.com/dagger/dagger/releases/download/v0.11.5/dagger_v0.11.5_linux_arm64.tar.gz
+    linux_arm64: sha256:2de008898f7dff91a7a4557d27c40f7377b11c4996b73909acefd036632a49b4
+    # https://github.com/dagger/dagger/releases/download/v0.11.5/dagger_v0.11.5_windows_arm64.zip
+    windows_arm64: sha256:60fb88ae7305c6c9539cd51f4f90e4c4cee648c24388b29c888716d724ae4de2
+    # https://github.com/dagger/dagger/releases/download/v0.11.5/dagger_v0.11.5_windows_armv7.zip
+    windows_armv7: sha256:de1f8f87ba73bcd060c017e1c6418dc0a3fd69ddfecab68a7fcee05b208035ed
+    # https://github.com/dagger/dagger/releases/download/v0.11.5/dagger_v0.11.5_windows_amd64.zip
+    windows_amd64: sha256:da502cae76099822ee4bc0c6a8ef19b5a5531049a58bc46a77309fa575109643
