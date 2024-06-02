@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.11.5
+dagger_ver: 0.11.6
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -351,3 +351,21 @@ dagger_checksums:
     windows_armv7: sha256:de1f8f87ba73bcd060c017e1c6418dc0a3fd69ddfecab68a7fcee05b208035ed
     # https://github.com/dagger/dagger/releases/download/v0.11.5/dagger_v0.11.5_windows_amd64.zip
     windows_amd64: sha256:da502cae76099822ee4bc0c6a8ef19b5a5531049a58bc46a77309fa575109643
+  # https://github.com/dagger/dagger/releases/download/v0.11.6/checksums.txt
+  '0.11.6':
+    # https://github.com/dagger/dagger/releases/download/v0.11.6/dagger_v0.11.6_darwin_amd64.tar.gz
+    darwin_amd64: sha256:8f3752117afd5cbccf0d79209c0cab5ecba8af55d03e46b5d4ae64a240108770
+    # https://github.com/dagger/dagger/releases/download/v0.11.6/dagger_v0.11.6_darwin_arm64.tar.gz
+    darwin_arm64: sha256:5ceb1f485b9bc7f363940d1a3c50f96a4da1d8292a0307294aabc379e5dedd08
+    # https://github.com/dagger/dagger/releases/download/v0.11.6/dagger_v0.11.6_linux_amd64.tar.gz
+    linux_amd64: sha256:27d940bc2cd1e606326acb9193fa0f9687d6e5748703a9986ddc8299ee2ba577
+    # https://github.com/dagger/dagger/releases/download/v0.11.6/dagger_v0.11.6_linux_armv7.tar.gz
+    linux_armv7: sha256:be88702eec15bf7d8bb561aa34c4feffe89defde497e7401be52f0ee0fbc4c4b
+    # https://github.com/dagger/dagger/releases/download/v0.11.6/dagger_v0.11.6_linux_arm64.tar.gz
+    linux_arm64: sha256:360b248a3708f6de2d281b7afaf197e0d682f02e9da4e70fe2347df6997e6ef5
+    # https://github.com/dagger/dagger/releases/download/v0.11.6/dagger_v0.11.6_windows_arm64.zip
+    windows_arm64: sha256:c3da36ac675083ddf7b64f8d46b2474da794f9712adf88599ac2c345d8956293
+    # https://github.com/dagger/dagger/releases/download/v0.11.6/dagger_v0.11.6_windows_armv7.zip
+    windows_armv7: sha256:0b196d3a3a82dbdf23348665b38bde3986ed6b24f2354f339818664e6e6eebe5
+    # https://github.com/dagger/dagger/releases/download/v0.11.6/dagger_v0.11.6_windows_amd64.zip
+    windows_amd64: sha256:361c9cfb81d4fc79e8ca0735946832181c04813755e3503e4399328966c4269b
