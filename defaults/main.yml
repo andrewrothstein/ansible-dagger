@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.11.6
+dagger_ver: 0.11.7
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -369,3 +369,21 @@ dagger_checksums:
     windows_armv7: sha256:0b196d3a3a82dbdf23348665b38bde3986ed6b24f2354f339818664e6e6eebe5
     # https://github.com/dagger/dagger/releases/download/v0.11.6/dagger_v0.11.6_windows_amd64.zip
     windows_amd64: sha256:361c9cfb81d4fc79e8ca0735946832181c04813755e3503e4399328966c4269b
+  # https://github.com/dagger/dagger/releases/download/v0.11.7/checksums.txt
+  '0.11.7':
+    # https://github.com/dagger/dagger/releases/download/v0.11.7/dagger_v0.11.7_darwin_amd64.tar.gz
+    darwin_amd64: sha256:a2761c246b08690174091bdcdd53c95908da2bed0f9d519219357b5281810e1e
+    # https://github.com/dagger/dagger/releases/download/v0.11.7/dagger_v0.11.7_darwin_arm64.tar.gz
+    darwin_arm64: sha256:09d0fdf6d7b264a5ebd92b0eca3d88fcee159339b84b0daa29ad456b51ec885f
+    # https://github.com/dagger/dagger/releases/download/v0.11.7/dagger_v0.11.7_linux_amd64.tar.gz
+    linux_amd64: sha256:0794e5956479b4d0ab1d0f6afca353743c2b18ae69d6595c390cceb214e6f352
+    # https://github.com/dagger/dagger/releases/download/v0.11.7/dagger_v0.11.7_linux_armv7.tar.gz
+    linux_armv7: sha256:b5daac1f411f367ac7efd780993b07e5164baf269329e28f09b44b7154f99fe4
+    # https://github.com/dagger/dagger/releases/download/v0.11.7/dagger_v0.11.7_linux_arm64.tar.gz
+    linux_arm64: sha256:76b8d148c48bcfd484ac8b3c412ea1926930e7344f498100534e4660520529ce
+    # https://github.com/dagger/dagger/releases/download/v0.11.7/dagger_v0.11.7_windows_arm64.zip
+    windows_arm64: sha256:a14da5080c7e40899dfc6d1670147ae63c8c8c42e70879732889e204efd1f1b3
+    # https://github.com/dagger/dagger/releases/download/v0.11.7/dagger_v0.11.7_windows_armv7.zip
+    windows_armv7: sha256:219ac69212ada96d7c7d8ce9973ea5078ffa673d1001d2f624675195f58ee67b
+    # https://github.com/dagger/dagger/releases/download/v0.11.7/dagger_v0.11.7_windows_amd64.zip
+    windows_amd64: sha256:732a36ef2d5c9e9e01c3706064c6094cd77f20ee01c03651a8e430b459934906
