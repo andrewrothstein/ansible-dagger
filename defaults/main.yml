@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.11.7
+dagger_ver: 0.11.8
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -387,3 +387,21 @@ dagger_checksums:
     windows_armv7: sha256:219ac69212ada96d7c7d8ce9973ea5078ffa673d1001d2f624675195f58ee67b
     # https://github.com/dagger/dagger/releases/download/v0.11.7/dagger_v0.11.7_windows_amd64.zip
     windows_amd64: sha256:732a36ef2d5c9e9e01c3706064c6094cd77f20ee01c03651a8e430b459934906
+  # https://github.com/dagger/dagger/releases/download/v0.11.8/checksums.txt
+  '0.11.8':
+    # https://github.com/dagger/dagger/releases/download/v0.11.8/dagger_v0.11.8_darwin_amd64.tar.gz
+    darwin_amd64: sha256:7c650f9beb3212f83aef07d24c221598782a396d3c32bb34435eb59167116d5c
+    # https://github.com/dagger/dagger/releases/download/v0.11.8/dagger_v0.11.8_darwin_arm64.tar.gz
+    darwin_arm64: sha256:be0db4f645f87b03914be968c86855f54f203bf6d8d6aa1e8fef44fe85484f5b
+    # https://github.com/dagger/dagger/releases/download/v0.11.8/dagger_v0.11.8_linux_amd64.tar.gz
+    linux_amd64: sha256:6576be70385be1470f1c167d00b99af17c7789906fdb3b8522fa15d807b8e464
+    # https://github.com/dagger/dagger/releases/download/v0.11.8/dagger_v0.11.8_linux_armv7.tar.gz
+    linux_armv7: sha256:9ed2d86bbafe6a0e8e963f534f87a22a37eb6cf39313b4dd2317ade942e66adf
+    # https://github.com/dagger/dagger/releases/download/v0.11.8/dagger_v0.11.8_linux_arm64.tar.gz
+    linux_arm64: sha256:8bd1d3e0db9d3bfe89985e7d870090fb04da591f991b006fae776351fcce1bad
+    # https://github.com/dagger/dagger/releases/download/v0.11.8/dagger_v0.11.8_windows_arm64.zip
+    windows_arm64: sha256:078c02c0b49e2682095f7f16b92c127fa3baed5a2fa2b20fd08816ec8dfc8429
+    # https://github.com/dagger/dagger/releases/download/v0.11.8/dagger_v0.11.8_windows_armv7.zip
+    windows_armv7: sha256:d6ace96cfe8f32aed36e1215aa3580c15f6fdcff7d73a8d0a64bf919c7327ef3
+    # https://github.com/dagger/dagger/releases/download/v0.11.8/dagger_v0.11.8_windows_amd64.zip
+    windows_amd64: sha256:827331aceb68783564cb4a4207fcdd8f647909bf6e692a7db9e0f4392ce9826d
