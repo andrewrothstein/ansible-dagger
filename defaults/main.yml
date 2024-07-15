@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.11.9
+dagger_ver: 0.12.0
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -423,3 +423,21 @@ dagger_checksums:
     windows_armv7: sha256:2727f4771e672204a79d217f015299c6ee6f78bbb27481f5cb7f1f017332a89e
     # https://github.com/dagger/dagger/releases/download/v0.11.9/dagger_v0.11.9_windows_amd64.zip
     windows_amd64: sha256:578e6f2e79d5d57811257414d6168a148c06dba90ac83d79350fa5acde17bb01
+  # https://github.com/dagger/dagger/releases/download/v0.12.0/checksums.txt
+  '0.12.0':
+    # https://github.com/dagger/dagger/releases/download/v0.12.0/dagger_v0.12.0_darwin_amd64.tar.gz
+    darwin_amd64: sha256:997bae069b44e0f1f91a861642904cc591d5cbe012e5924cccfc14acb0a3ef96
+    # https://github.com/dagger/dagger/releases/download/v0.12.0/dagger_v0.12.0_darwin_arm64.tar.gz
+    darwin_arm64: sha256:09ee7c53a156f8b52ffe68d0f726bfdcf988d08fa12ac9fb3f00be4061a68d32
+    # https://github.com/dagger/dagger/releases/download/v0.12.0/dagger_v0.12.0_linux_amd64.tar.gz
+    linux_amd64: sha256:33a61c5abb4094c8c2b79d3cea785ade4566ebc2bcfa6490664b4f08ba25b94d
+    # https://github.com/dagger/dagger/releases/download/v0.12.0/dagger_v0.12.0_linux_armv7.tar.gz
+    linux_armv7: sha256:fdd719f9e1b0d60a760f806e7c71d8e99936fc58d3649081ab2b08a73f99bbd0
+    # https://github.com/dagger/dagger/releases/download/v0.12.0/dagger_v0.12.0_linux_arm64.tar.gz
+    linux_arm64: sha256:cacc8c15a9ac3fd0a20920c2aec4651c3b4d07d18832bc44349a358208a5d10b
+    # https://github.com/dagger/dagger/releases/download/v0.12.0/dagger_v0.12.0_windows_arm64.zip
+    windows_arm64: sha256:eb029ea58549ab84ed81b92a33e40fd2fa8e374b24e0be332dadca12788c1cf2
+    # https://github.com/dagger/dagger/releases/download/v0.12.0/dagger_v0.12.0_windows_armv7.zip
+    windows_armv7: sha256:40fceb25e00736605bf7b5b6a623fe58f7453bd27994ae640750514b53969dbe
+    # https://github.com/dagger/dagger/releases/download/v0.12.0/dagger_v0.12.0_windows_amd64.zip
+    windows_amd64: sha256:bd74138d66ddd5579c767d9192d26e9bbe29651ee55e5db458b5f065f69c6615
