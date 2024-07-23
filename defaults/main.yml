@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.12.1
+dagger_ver: 0.12.2
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -459,3 +459,21 @@ dagger_checksums:
     windows_armv7: sha256:468e92dbea9152d388236fb5cd8b7e37193da7a505748bee2b946c34026bca0f
     # https://github.com/dagger/dagger/releases/download/v0.12.1/dagger_v0.12.1_windows_amd64.zip
     windows_amd64: sha256:50dfc3f25dac462d598a313f95f809aae8ed9ecfc9e31b51937d9c3c845ba6dd
+  # https://github.com/dagger/dagger/releases/download/v0.12.2/checksums.txt
+  '0.12.2':
+    # https://github.com/dagger/dagger/releases/download/v0.12.2/dagger_v0.12.2_darwin_amd64.tar.gz
+    darwin_amd64: sha256:7255ea25af4de506328f2c48ddc90ad5cf37bf66c5b652a8b1d5417570a5a6ad
+    # https://github.com/dagger/dagger/releases/download/v0.12.2/dagger_v0.12.2_darwin_arm64.tar.gz
+    darwin_arm64: sha256:baf301780f58d3d4982c2fe1592cc8b88493bdd730431d57810408ed0945fa67
+    # https://github.com/dagger/dagger/releases/download/v0.12.2/dagger_v0.12.2_linux_amd64.tar.gz
+    linux_amd64: sha256:717ead71604599bbac7ac9ba8ba65944d7aa02c777674dd73dd13658341f534d
+    # https://github.com/dagger/dagger/releases/download/v0.12.2/dagger_v0.12.2_linux_armv7.tar.gz
+    linux_armv7: sha256:79f8441341a864bd2c89a37f9fa20c7a98d7a3059b1e4c625c4dbbefc61282f2
+    # https://github.com/dagger/dagger/releases/download/v0.12.2/dagger_v0.12.2_linux_arm64.tar.gz
+    linux_arm64: sha256:0f75a00627f3554825ebff81b8bdc69db5acac3baecf084c44deff49a55c3f36
+    # https://github.com/dagger/dagger/releases/download/v0.12.2/dagger_v0.12.2_windows_arm64.zip
+    windows_arm64: sha256:001de1921033e50ce816444e5a5f86c2dbc3676d588aab6d0880719bb4cfeeaf
+    # https://github.com/dagger/dagger/releases/download/v0.12.2/dagger_v0.12.2_windows_armv7.zip
+    windows_armv7: sha256:e59dce256ab592278f568ec7df42e9e7830c75da588cc45b87db03b5ab19d462
+    # https://github.com/dagger/dagger/releases/download/v0.12.2/dagger_v0.12.2_windows_amd64.zip
+    windows_amd64: sha256:a03d2755def972563483b87bfbe5e6229dbb31a19605dd9308ec90361ffd3b17
