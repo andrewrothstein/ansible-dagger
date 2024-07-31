@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.12.2
+dagger_ver: 0.12.3
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -477,3 +477,21 @@ dagger_checksums:
     windows_armv7: sha256:e59dce256ab592278f568ec7df42e9e7830c75da588cc45b87db03b5ab19d462
     # https://github.com/dagger/dagger/releases/download/v0.12.2/dagger_v0.12.2_windows_amd64.zip
     windows_amd64: sha256:a03d2755def972563483b87bfbe5e6229dbb31a19605dd9308ec90361ffd3b17
+  # https://github.com/dagger/dagger/releases/download/v0.12.3/checksums.txt
+  '0.12.3':
+    # https://github.com/dagger/dagger/releases/download/v0.12.3/dagger_v0.12.3_darwin_amd64.tar.gz
+    darwin_amd64: sha256:2645015230a1f81dab30bbd31953def4362a6b9c8c29677e964adc3e21d309d1
+    # https://github.com/dagger/dagger/releases/download/v0.12.3/dagger_v0.12.3_darwin_arm64.tar.gz
+    darwin_arm64: sha256:544e8c8f0358886c8e1fb894f1b14f52714f7be76a138a2b909e79245c6ddd4e
+    # https://github.com/dagger/dagger/releases/download/v0.12.3/dagger_v0.12.3_linux_amd64.tar.gz
+    linux_amd64: sha256:db48aa7afaae0c374e1f36f2629a17f28300cf81f20c73618073d430245e68e4
+    # https://github.com/dagger/dagger/releases/download/v0.12.3/dagger_v0.12.3_linux_armv7.tar.gz
+    linux_armv7: sha256:6898f1466c2d2cce916cb9179672379bf89276dadb8def50ff95f6fd362c983a
+    # https://github.com/dagger/dagger/releases/download/v0.12.3/dagger_v0.12.3_linux_arm64.tar.gz
+    linux_arm64: sha256:6c7db7628130ff170d119fb896860ccafe8aa2713920383fac810893e0ba1ced
+    # https://github.com/dagger/dagger/releases/download/v0.12.3/dagger_v0.12.3_windows_arm64.zip
+    windows_arm64: sha256:b91acad553eacf69ca3ec8090e17cd539522cd4c380fc5641058cc766287bab1
+    # https://github.com/dagger/dagger/releases/download/v0.12.3/dagger_v0.12.3_windows_armv7.zip
+    windows_armv7: sha256:432543ab4a470597091fbe481531ffbfb8e46378068a6232bfefc4d09acc2612
+    # https://github.com/dagger/dagger/releases/download/v0.12.3/dagger_v0.12.3_windows_amd64.zip
+    windows_amd64: sha256:e1b79deb93dbe6d01550fbda8cedc195cfa4e872a20d5062895aff5fd14075c0
