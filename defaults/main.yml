@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.12.4
+dagger_ver: 0.12.5
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -513,3 +513,21 @@ dagger_checksums:
     windows_armv7: sha256:e9bdf1fe45b06eb0fa8a6eb7d1ebe5de3db77096ba6e1a90bb2afb5c8134d181
     # https://github.com/dagger/dagger/releases/download/v0.12.4/dagger_v0.12.4_windows_amd64.zip
     windows_amd64: sha256:61fa1588a67a4a60637a02cdf2c7e92ce6e8e1c674fb3d88f728ed1f616c118b
+  # https://github.com/dagger/dagger/releases/download/v0.12.5/checksums.txt
+  '0.12.5':
+    # https://github.com/dagger/dagger/releases/download/v0.12.5/dagger_v0.12.5_darwin_amd64.tar.gz
+    darwin_amd64: sha256:3d47c4dea3a51bd7d595b98b4b3ebf00e9b74a2ff9bda612c934175f66b15469
+    # https://github.com/dagger/dagger/releases/download/v0.12.5/dagger_v0.12.5_darwin_arm64.tar.gz
+    darwin_arm64: sha256:904ffb04bff1c51291fab2a9ca3645ec820fbb050d8e3873a94c286341a3ac5c
+    # https://github.com/dagger/dagger/releases/download/v0.12.5/dagger_v0.12.5_linux_amd64.tar.gz
+    linux_amd64: sha256:4ca65902ff0e910366d7eea82d58ed5ee1a544abfcaf2f4021d5c9762f80f3a7
+    # https://github.com/dagger/dagger/releases/download/v0.12.5/dagger_v0.12.5_linux_armv7.tar.gz
+    linux_armv7: sha256:69459ea693a2e2614d0656c4c91e167d30c0283ce013416966509bfcb7d023b7
+    # https://github.com/dagger/dagger/releases/download/v0.12.5/dagger_v0.12.5_linux_arm64.tar.gz
+    linux_arm64: sha256:da6cb535bdf064eaef2d0566979a45b1a6b0301610698a89d1ea9182b6adcb43
+    # https://github.com/dagger/dagger/releases/download/v0.12.5/dagger_v0.12.5_windows_arm64.zip
+    windows_arm64: sha256:7925df360811a7701d7a59f4c5218dadf8edfb8f33d1499f43fd7f16f19324f6
+    # https://github.com/dagger/dagger/releases/download/v0.12.5/dagger_v0.12.5_windows_armv7.zip
+    windows_armv7: sha256:65fb4e1b01ff4b8a1210443aad753da1dace96a62549ce3a3506f579775f9398
+    # https://github.com/dagger/dagger/releases/download/v0.12.5/dagger_v0.12.5_windows_amd64.zip
+    windows_amd64: sha256:4e08b2fa714da745b388835235d0c1c62bf963b12208747b97b1df7a0310dfb8
