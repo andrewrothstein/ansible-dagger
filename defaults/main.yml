@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.12.5
+dagger_ver: 0.12.6
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -531,3 +531,21 @@ dagger_checksums:
     windows_armv7: sha256:65fb4e1b01ff4b8a1210443aad753da1dace96a62549ce3a3506f579775f9398
     # https://github.com/dagger/dagger/releases/download/v0.12.5/dagger_v0.12.5_windows_amd64.zip
     windows_amd64: sha256:4e08b2fa714da745b388835235d0c1c62bf963b12208747b97b1df7a0310dfb8
+  # https://github.com/dagger/dagger/releases/download/v0.12.6/checksums.txt
+  '0.12.6':
+    # https://github.com/dagger/dagger/releases/download/v0.12.6/dagger_v0.12.6_darwin_amd64.tar.gz
+    darwin_amd64: sha256:f6661da3d6e10d31760b97f05f97c8100c8c196a834ead1a493ef3781e04089c
+    # https://github.com/dagger/dagger/releases/download/v0.12.6/dagger_v0.12.6_darwin_arm64.tar.gz
+    darwin_arm64: sha256:800e13b07690eb09cfdc50e88bbe079992bc6f44d0ec79ba6151e8a25f310388
+    # https://github.com/dagger/dagger/releases/download/v0.12.6/dagger_v0.12.6_linux_amd64.tar.gz
+    linux_amd64: sha256:419812cbdddcde34e3b6a30bd1cf815ee9403bf8fc31c0bbe5f2ee4b0938c5f6
+    # https://github.com/dagger/dagger/releases/download/v0.12.6/dagger_v0.12.6_linux_armv7.tar.gz
+    linux_armv7: sha256:7dd17a3864baccec639e040531d1f9c091eeb57831108388782f98101910a095
+    # https://github.com/dagger/dagger/releases/download/v0.12.6/dagger_v0.12.6_linux_arm64.tar.gz
+    linux_arm64: sha256:6ad3a70c41849ec0a2c5d3d49c9155b2039de222930143f5a1c520e34e1867b0
+    # https://github.com/dagger/dagger/releases/download/v0.12.6/dagger_v0.12.6_windows_arm64.zip
+    windows_arm64: sha256:c487dfcf0cd882f68740ba98deec6a2539e520ab35b1f7b90faab16a4f635156
+    # https://github.com/dagger/dagger/releases/download/v0.12.6/dagger_v0.12.6_windows_armv7.zip
+    windows_armv7: sha256:5e00851882126fb1c765cd6e2b6c6b39e248bef5ff662cf7b6894d5ea9f722f9
+    # https://github.com/dagger/dagger/releases/download/v0.12.6/dagger_v0.12.6_windows_amd64.zip
+    windows_amd64: sha256:ae0a5e2b60f1b31a2952cf990579a8879e2ac68d6a42869392399b6aac51ad98
