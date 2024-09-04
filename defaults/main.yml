@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.12.6
+dagger_ver: 0.12.7
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -549,3 +549,21 @@ dagger_checksums:
     windows_armv7: sha256:5e00851882126fb1c765cd6e2b6c6b39e248bef5ff662cf7b6894d5ea9f722f9
     # https://github.com/dagger/dagger/releases/download/v0.12.6/dagger_v0.12.6_windows_amd64.zip
     windows_amd64: sha256:ae0a5e2b60f1b31a2952cf990579a8879e2ac68d6a42869392399b6aac51ad98
+  # https://github.com/dagger/dagger/releases/download/v0.12.7/checksums.txt
+  '0.12.7':
+    # https://github.com/dagger/dagger/releases/download/v0.12.7/dagger_v0.12.7_darwin_amd64.tar.gz
+    darwin_amd64: sha256:cab12a443815aceb005b7f7dfb9b6b4f69de6db9aa674c038b6a5f742c10bbe1
+    # https://github.com/dagger/dagger/releases/download/v0.12.7/dagger_v0.12.7_darwin_arm64.tar.gz
+    darwin_arm64: sha256:c035655c01b34624d921a93691a8a93f9915dce9aa020c3ca955ab97f5eb594c
+    # https://github.com/dagger/dagger/releases/download/v0.12.7/dagger_v0.12.7_linux_amd64.tar.gz
+    linux_amd64: sha256:804a0b9cff054f99e224f3225b35e6180b8ba77639d333529fb432ab9be4511c
+    # https://github.com/dagger/dagger/releases/download/v0.12.7/dagger_v0.12.7_linux_armv7.tar.gz
+    linux_armv7: sha256:c73700844c6c2015214803162846790d18509025cfcc6ce40b3c47628c3134b9
+    # https://github.com/dagger/dagger/releases/download/v0.12.7/dagger_v0.12.7_linux_arm64.tar.gz
+    linux_arm64: sha256:0309af7fadd5bf7b97a0d0bab342923b16667086bde3fedb3164cdc6ddab8f46
+    # https://github.com/dagger/dagger/releases/download/v0.12.7/dagger_v0.12.7_windows_arm64.zip
+    windows_arm64: sha256:675029e238b744c5e2d0cd9601154929a8a108df4cd643d7d9a80abb2c70891e
+    # https://github.com/dagger/dagger/releases/download/v0.12.7/dagger_v0.12.7_windows_armv7.zip
+    windows_armv7: sha256:cbad64c4f07fb8250f285ae9a078224a3a9a4ee3a9207513644b978bfacc5e0c
+    # https://github.com/dagger/dagger/releases/download/v0.12.7/dagger_v0.12.7_windows_amd64.zip
+    windows_amd64: sha256:70e37adff5af182dd265efc1217b91616041782d1676e26eb1ea801b0e19665d
