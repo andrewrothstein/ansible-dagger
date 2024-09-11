@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.12.7
+dagger_ver: 0.13.0
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -567,3 +567,21 @@ dagger_checksums:
     windows_armv7: sha256:cbad64c4f07fb8250f285ae9a078224a3a9a4ee3a9207513644b978bfacc5e0c
     # https://github.com/dagger/dagger/releases/download/v0.12.7/dagger_v0.12.7_windows_amd64.zip
     windows_amd64: sha256:70e37adff5af182dd265efc1217b91616041782d1676e26eb1ea801b0e19665d
+  # https://github.com/dagger/dagger/releases/download/v0.13.0/checksums.txt
+  '0.13.0':
+    # https://github.com/dagger/dagger/releases/download/v0.13.0/dagger_v0.13.0_darwin_amd64.tar.gz
+    darwin_amd64: sha256:3cb5d3e812fc7756922946b38f4a59be23cb40a42c79a30d7c152159251d7a69
+    # https://github.com/dagger/dagger/releases/download/v0.13.0/dagger_v0.13.0_darwin_arm64.tar.gz
+    darwin_arm64: sha256:f394bb51c4653dea2650c83df0c4a7013d5427f0b44cfb4f4fe61cef4cd5b879
+    # https://github.com/dagger/dagger/releases/download/v0.13.0/dagger_v0.13.0_linux_amd64.tar.gz
+    linux_amd64: sha256:c8dbbd434dceb5914e461bf183d44f91083722ef61522ad8c601ad3a9c094fcc
+    # https://github.com/dagger/dagger/releases/download/v0.13.0/dagger_v0.13.0_linux_armv7.tar.gz
+    linux_armv7: sha256:0ebe9658254e0d5a2978550ec29d33162e9b89a2c3ff5787b120d130a32b7893
+    # https://github.com/dagger/dagger/releases/download/v0.13.0/dagger_v0.13.0_linux_arm64.tar.gz
+    linux_arm64: sha256:7445d87c289badcc8a4cd95152643b391fcf45d385c997d7f5aaee13e15c8736
+    # https://github.com/dagger/dagger/releases/download/v0.13.0/dagger_v0.13.0_windows_arm64.zip
+    windows_arm64: sha256:f51081f9bea26fe78dc4ff3a04ce7bee3e5b298c6eda6505207a8055112c694f
+    # https://github.com/dagger/dagger/releases/download/v0.13.0/dagger_v0.13.0_windows_armv7.zip
+    windows_armv7: sha256:2c9b62ff09996d650d5c97759997badbe3d15833d0a0ba86f8ae08bf97c63786
+    # https://github.com/dagger/dagger/releases/download/v0.13.0/dagger_v0.13.0_windows_amd64.zip
+    windows_amd64: sha256:cdfb3255dff42a00103730c1dbbfd80700dfbe80819e17735edb774ee58b42e1
