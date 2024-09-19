@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.13.0
+dagger_ver: 0.13.1
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -585,3 +585,21 @@ dagger_checksums:
     windows_armv7: sha256:2c9b62ff09996d650d5c97759997badbe3d15833d0a0ba86f8ae08bf97c63786
     # https://github.com/dagger/dagger/releases/download/v0.13.0/dagger_v0.13.0_windows_amd64.zip
     windows_amd64: sha256:cdfb3255dff42a00103730c1dbbfd80700dfbe80819e17735edb774ee58b42e1
+  # https://github.com/dagger/dagger/releases/download/v0.13.1/checksums.txt
+  '0.13.1':
+    # https://github.com/dagger/dagger/releases/download/v0.13.1/dagger_v0.13.1_darwin_amd64.tar.gz
+    darwin_amd64: sha256:ea3467ca22ae2c576250f7bee737bfc6cc9809af02402acc8699e4db98ffe6ae
+    # https://github.com/dagger/dagger/releases/download/v0.13.1/dagger_v0.13.1_darwin_arm64.tar.gz
+    darwin_arm64: sha256:1d20acf05e785b9b31a3951dce600a4f86957613881d722441b133e809322cf9
+    # https://github.com/dagger/dagger/releases/download/v0.13.1/dagger_v0.13.1_linux_amd64.tar.gz
+    linux_amd64: sha256:1193bc7efc70fe1d4924b86788010a1f99ad1eb66079fa531a3233e570f8c62e
+    # https://github.com/dagger/dagger/releases/download/v0.13.1/dagger_v0.13.1_linux_armv7.tar.gz
+    linux_armv7: sha256:79d1008c22bb74b372b8dd0eff2079965e4ed2107371f9ee7fd09dad88d68b58
+    # https://github.com/dagger/dagger/releases/download/v0.13.1/dagger_v0.13.1_linux_arm64.tar.gz
+    linux_arm64: sha256:084e7e02d35984f19550d22f678c46fa32ec790ec95d28f1e0ce0bd5422313ee
+    # https://github.com/dagger/dagger/releases/download/v0.13.1/dagger_v0.13.1_windows_arm64.zip
+    windows_arm64: sha256:956bd335f32e2bd603134dabea45a470fdac7a2c6e1fca5892101df6ed838164
+    # https://github.com/dagger/dagger/releases/download/v0.13.1/dagger_v0.13.1_windows_armv7.zip
+    windows_armv7: sha256:fe14276cfa28f9546b889ee78bfefa5ed44ca787972f78e8c96dd6c6b67e2c5d
+    # https://github.com/dagger/dagger/releases/download/v0.13.1/dagger_v0.13.1_windows_amd64.zip
+    windows_amd64: sha256:f92706b462a44ca936f7d10d770f95a17bfee576ba36ad86cc5327a0f728f0e6
