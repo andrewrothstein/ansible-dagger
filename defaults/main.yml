@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.13.1
+dagger_ver: 0.13.3
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -603,3 +603,21 @@ dagger_checksums:
     windows_armv7: sha256:fe14276cfa28f9546b889ee78bfefa5ed44ca787972f78e8c96dd6c6b67e2c5d
     # https://github.com/dagger/dagger/releases/download/v0.13.1/dagger_v0.13.1_windows_amd64.zip
     windows_amd64: sha256:f92706b462a44ca936f7d10d770f95a17bfee576ba36ad86cc5327a0f728f0e6
+  # https://github.com/dagger/dagger/releases/download/v0.13.3/checksums.txt
+  '0.13.3':
+    # https://github.com/dagger/dagger/releases/download/v0.13.3/dagger_v0.13.3_darwin_amd64.tar.gz
+    darwin_amd64: sha256:420e4abe65797c77ed3893df92a5937cfc90e013757c9793c3fbdd2eb09b4a1d
+    # https://github.com/dagger/dagger/releases/download/v0.13.3/dagger_v0.13.3_darwin_arm64.tar.gz
+    darwin_arm64: sha256:f4b8549f2eb35f487fccdfd9cf771993b07b4258ec4f07dc9b3d8c92ec5c80bb
+    # https://github.com/dagger/dagger/releases/download/v0.13.3/dagger_v0.13.3_linux_amd64.tar.gz
+    linux_amd64: sha256:787307925b10c0b9b04c0fd814716abe339c53b6aa250a8ba25321a934d14a67
+    # https://github.com/dagger/dagger/releases/download/v0.13.3/dagger_v0.13.3_linux_armv7.tar.gz
+    linux_armv7: sha256:e99eedc59b174ab85e99dec4ebe2ddb4416f5b263bf0144dacc19c641eb11b08
+    # https://github.com/dagger/dagger/releases/download/v0.13.3/dagger_v0.13.3_linux_arm64.tar.gz
+    linux_arm64: sha256:8b2a6df85760775b094e8cab551d1f27f5172aadae77abd6652989db3346789d
+    # https://github.com/dagger/dagger/releases/download/v0.13.3/dagger_v0.13.3_windows_arm64.zip
+    windows_arm64: sha256:4e10749eb7470f072a1438f3747da5677ad910538167bdca875cfced12db4d99
+    # https://github.com/dagger/dagger/releases/download/v0.13.3/dagger_v0.13.3_windows_armv7.zip
+    windows_armv7: sha256:2c8a07448bcaa4ccd43482d6db02fc5ad54957252678531c51270492c8586e5d
+    # https://github.com/dagger/dagger/releases/download/v0.13.3/dagger_v0.13.3_windows_amd64.zip
+    windows_amd64: sha256:cb420600b85f27e2384d23c0858d508488d5d157a0bcb537c421c1ae5c79acae
