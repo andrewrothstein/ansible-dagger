@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.13.5
+dagger_ver: 0.13.6
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -639,3 +639,21 @@ dagger_checksums:
     windows_armv7: sha256:a1231839d2cd05e76b8556aab09adaca339aabb24f338e01e2d0e2806e146493
     # https://github.com/dagger/dagger/releases/download/v0.13.5/dagger_v0.13.5_windows_amd64.zip
     windows_amd64: sha256:88f030d604c618f2b95eafd13c462d4e8ec9f289b610dee9df8f5debeafd59b8
+  # https://github.com/dagger/dagger/releases/download/v0.13.6/checksums.txt
+  '0.13.6':
+    # https://github.com/dagger/dagger/releases/download/v0.13.6/dagger_v0.13.6_darwin_amd64.tar.gz
+    darwin_amd64: sha256:d956d2def964f92f08814c891478fa587f4ec8d5267b0169a4b0525f19e1fdc3
+    # https://github.com/dagger/dagger/releases/download/v0.13.6/dagger_v0.13.6_darwin_arm64.tar.gz
+    darwin_arm64: sha256:1ca89e66f9ede8ca57ddeea2802691d3edda4837bbbaa073532941bf11f7516f
+    # https://github.com/dagger/dagger/releases/download/v0.13.6/dagger_v0.13.6_linux_amd64.tar.gz
+    linux_amd64: sha256:3105aac1a6e2cb18598775b9a770a1c08a5ab20a8a9131d0fa09bc1f375f4548
+    # https://github.com/dagger/dagger/releases/download/v0.13.6/dagger_v0.13.6_linux_armv7.tar.gz
+    linux_armv7: sha256:1af98bf462c52f8996872b97003e032fdfc8ad9fca422fb995702fb4d5a4fa4a
+    # https://github.com/dagger/dagger/releases/download/v0.13.6/dagger_v0.13.6_linux_arm64.tar.gz
+    linux_arm64: sha256:c1fe51ab6c5c5911535a87eafd25bba23a4da194947d70108b84be6ff182285a
+    # https://github.com/dagger/dagger/releases/download/v0.13.6/dagger_v0.13.6_windows_arm64.zip
+    windows_arm64: sha256:ff721515a3690d51a426dbb3974e8407683b18388a595684c85e32e1ac489c48
+    # https://github.com/dagger/dagger/releases/download/v0.13.6/dagger_v0.13.6_windows_armv7.zip
+    windows_armv7: sha256:1dfaaf4920c1691413a5b0fac22551c1ed46ac891457ea3f85e8e0c857ce7f36
+    # https://github.com/dagger/dagger/releases/download/v0.13.6/dagger_v0.13.6_windows_amd64.zip
+    windows_amd64: sha256:5553f43a1f321087bf575a11b2d42d08c4c0bab9062873cc9629f1fb818f26a8
