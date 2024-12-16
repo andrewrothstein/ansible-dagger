@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.14.0
+dagger_ver: 0.15.1
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -693,3 +693,21 @@ dagger_checksums:
     windows_armv7: sha256:00b6f5893f7322c8df9e53b19fc3379129a061bd34662710958af275bdbfd89b
     # https://github.com/dagger/dagger/releases/download/v0.14.0/dagger_v0.14.0_windows_amd64.zip
     windows_amd64: sha256:f6438baf818b538cdfbaadef5b20a6b00d8e1929b4cbab47f2ed2f2b3a123804
+  # https://github.com/dagger/dagger/releases/download/v0.15.1/checksums.txt
+  '0.15.1':
+    # https://github.com/dagger/dagger/releases/download/v0.15.1/dagger_v0.15.1_darwin_amd64.tar.gz
+    darwin_amd64: sha256:759156895c2076036837049aba208d185682b6be9e7a75bf91984fa2cb91ffbd
+    # https://github.com/dagger/dagger/releases/download/v0.15.1/dagger_v0.15.1_darwin_arm64.tar.gz
+    darwin_arm64: sha256:d5f0f95690941b5845c1a4f60be8a3c8f79be18a786b6bd31354a587118cafa6
+    # https://github.com/dagger/dagger/releases/download/v0.15.1/dagger_v0.15.1_linux_amd64.tar.gz
+    linux_amd64: sha256:ffdd32bc663066df82f6c1ab24c9fffe03f16f59e331b3759775f46be88615ba
+    # https://github.com/dagger/dagger/releases/download/v0.15.1/dagger_v0.15.1_linux_armv7.tar.gz
+    linux_armv7: sha256:2401310a572d0406fa49c4928d5dac0bb674f7cd4fa3069c5b04f5debeb8fee5
+    # https://github.com/dagger/dagger/releases/download/v0.15.1/dagger_v0.15.1_linux_arm64.tar.gz
+    linux_arm64: sha256:ead9c147e5227eab4fd4bf01d929a2bb5de77599f1c464fb5751ff0244a89d6d
+    # https://github.com/dagger/dagger/releases/download/v0.15.1/dagger_v0.15.1_windows_arm64.zip
+    windows_arm64: sha256:2c653ed9346f46eb06be0d6543e95a073dd6cfc87326072a33ace0dbb9c2ae7c
+    # https://github.com/dagger/dagger/releases/download/v0.15.1/dagger_v0.15.1_windows_armv7.zip
+    windows_armv7: sha256:97775053df83b0ba5c087cb23306b841c31e62c9c4540f8b820aafc21f1fff38
+    # https://github.com/dagger/dagger/releases/download/v0.15.1/dagger_v0.15.1_windows_amd64.zip
+    windows_amd64: sha256:93735cdd541ddbe8ca23e671841ff289f2286f81a97e7618516460a5528329f2
