@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.15.1
+dagger_ver: 0.15.2
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -711,3 +711,21 @@ dagger_checksums:
     windows_armv7: sha256:97775053df83b0ba5c087cb23306b841c31e62c9c4540f8b820aafc21f1fff38
     # https://github.com/dagger/dagger/releases/download/v0.15.1/dagger_v0.15.1_windows_amd64.zip
     windows_amd64: sha256:93735cdd541ddbe8ca23e671841ff289f2286f81a97e7618516460a5528329f2
+  # https://github.com/dagger/dagger/releases/download/v0.15.2/checksums.txt
+  '0.15.2':
+    # https://github.com/dagger/dagger/releases/download/v0.15.2/dagger_v0.15.2_darwin_amd64.tar.gz
+    darwin_amd64: sha256:c861764991100178308a776a11bda0e2775b61f652ea0afa0c37c86217e159e7
+    # https://github.com/dagger/dagger/releases/download/v0.15.2/dagger_v0.15.2_darwin_arm64.tar.gz
+    darwin_arm64: sha256:c1ded0956b3d3f8c1682fba836c6eee8a1bd58575f07b943f89c4e41cc8356b6
+    # https://github.com/dagger/dagger/releases/download/v0.15.2/dagger_v0.15.2_linux_amd64.tar.gz
+    linux_amd64: sha256:b025a86efdde245c0d855588c9ce5b96d87818bf593bb4328389181145a4db57
+    # https://github.com/dagger/dagger/releases/download/v0.15.2/dagger_v0.15.2_linux_armv7.tar.gz
+    linux_armv7: sha256:380416aeaddf69387736b148c5cc40c685494c0456eb23682697f76a25a3a15d
+    # https://github.com/dagger/dagger/releases/download/v0.15.2/dagger_v0.15.2_linux_arm64.tar.gz
+    linux_arm64: sha256:5c5f99e7797270233f9990225743cc6e6b4c9f519ea612a0f4fc8e3a21c8ae76
+    # https://github.com/dagger/dagger/releases/download/v0.15.2/dagger_v0.15.2_windows_arm64.zip
+    windows_arm64: sha256:ca8562d515792c0bea18e0848b13feb664689c313d6861fa445cbf52e9af708d
+    # https://github.com/dagger/dagger/releases/download/v0.15.2/dagger_v0.15.2_windows_armv7.zip
+    windows_armv7: sha256:50e982ba579c06434e22f2fcbbff2f2364a0bad99d9a8c9f8615fa68fdb8c577
+    # https://github.com/dagger/dagger/releases/download/v0.15.2/dagger_v0.15.2_windows_amd64.zip
+    windows_amd64: sha256:2d8652dae0925d6dc9ba830d4f5c4dfe212c7b54ac881a5766c264e5852b4bc2
