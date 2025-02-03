@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.15.2
+dagger_ver: 0.15.3
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -729,3 +729,21 @@ dagger_checksums:
     windows_armv7: sha256:50e982ba579c06434e22f2fcbbff2f2364a0bad99d9a8c9f8615fa68fdb8c577
     # https://github.com/dagger/dagger/releases/download/v0.15.2/dagger_v0.15.2_windows_amd64.zip
     windows_amd64: sha256:2d8652dae0925d6dc9ba830d4f5c4dfe212c7b54ac881a5766c264e5852b4bc2
+  # https://github.com/dagger/dagger/releases/download/v0.15.3/checksums.txt
+  '0.15.3':
+    # https://github.com/dagger/dagger/releases/download/v0.15.3/dagger_v0.15.3_darwin_amd64.tar.gz
+    darwin_amd64: sha256:61639b15ab3a8b4aaef461dd8320bc834e16c4ac88095058b1cad89230de0d4e
+    # https://github.com/dagger/dagger/releases/download/v0.15.3/dagger_v0.15.3_darwin_arm64.tar.gz
+    darwin_arm64: sha256:bc7b6aab3c688c2adc51aefc39189f97e0fac7b8a3bcd0b6ece8056e409a838c
+    # https://github.com/dagger/dagger/releases/download/v0.15.3/dagger_v0.15.3_linux_amd64.tar.gz
+    linux_amd64: sha256:e908dc123826dd0ee6c059b00681501ffa303737d0fa6cd562ad12e35f2b7553
+    # https://github.com/dagger/dagger/releases/download/v0.15.3/dagger_v0.15.3_linux_armv7.tar.gz
+    linux_armv7: sha256:95de12c4b475539b3d909e8ccc4273110c3adf0f6e843939cfdb51b0805e989e
+    # https://github.com/dagger/dagger/releases/download/v0.15.3/dagger_v0.15.3_linux_arm64.tar.gz
+    linux_arm64: sha256:73c5d2b931b57428c55f1f7d2b678ea80139f896608f3f6a1002c494ea263624
+    # https://github.com/dagger/dagger/releases/download/v0.15.3/dagger_v0.15.3_windows_arm64.zip
+    windows_arm64: sha256:c7ccafb6ee4be54ca40ff83f48fdce9ebaff24f7227466f58c201a05cccb3632
+    # https://github.com/dagger/dagger/releases/download/v0.15.3/dagger_v0.15.3_windows_armv7.zip
+    windows_armv7: sha256:8530893534ec1a195cf8751f1baddda6e4d80acd150eaacbf7a709894d1bdfa6
+    # https://github.com/dagger/dagger/releases/download/v0.15.3/dagger_v0.15.3_windows_amd64.zip
+    windows_amd64: sha256:68bfe702854c2c4cef840d58937a4862cdc4f21224a1520aa7b9feca926fbedc
