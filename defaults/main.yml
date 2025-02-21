@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.15.4
+dagger_ver: 0.16.1
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -765,3 +765,21 @@ dagger_checksums:
     windows_armv7: sha256:ffa5fb3ea66921aa7330b9cff1dab7b0ce72dd5df5691e285f53c9067073b46b
     # https://github.com/dagger/dagger/releases/download/v0.15.4/dagger_v0.15.4_windows_amd64.zip
     windows_amd64: sha256:5ba88a1b788013318129ae042001feeaf481035770c5d1f3a42e7a67a559ce91
+  # https://github.com/dagger/dagger/releases/download/v0.16.1/checksums.txt
+  '0.16.1':
+    # https://github.com/dagger/dagger/releases/download/v0.16.1/dagger_v0.16.1_darwin_amd64.tar.gz
+    darwin_amd64: sha256:30c4ff386620764f328ae3d07f8577d2d5324b7594d490d06fe7bd2155c70314
+    # https://github.com/dagger/dagger/releases/download/v0.16.1/dagger_v0.16.1_darwin_arm64.tar.gz
+    darwin_arm64: sha256:4d15c30387b89f0b711862c15cc55f21a7dd666093b562f2d22b875566df1772
+    # https://github.com/dagger/dagger/releases/download/v0.16.1/dagger_v0.16.1_linux_amd64.tar.gz
+    linux_amd64: sha256:0e97d0bb12b964033f76fdbbbf37f29e003703713a51db0695fd13296a7957c3
+    # https://github.com/dagger/dagger/releases/download/v0.16.1/dagger_v0.16.1_linux_armv7.tar.gz
+    linux_armv7: sha256:8283e809c6f82fda154c84e1df21f512408e137feb93f45746f20dc1d8a4bd62
+    # https://github.com/dagger/dagger/releases/download/v0.16.1/dagger_v0.16.1_linux_arm64.tar.gz
+    linux_arm64: sha256:630ae223f5011cf98ba49b85b9cf37d2e15f4303d0fd00a7ac2b57c77d735930
+    # https://github.com/dagger/dagger/releases/download/v0.16.1/dagger_v0.16.1_windows_arm64.zip
+    windows_arm64: sha256:5099c9f35ec44ae2366fc1cc9f8edb23bc4fdcf4b90c93cb818a055debb6ebf8
+    # https://github.com/dagger/dagger/releases/download/v0.16.1/dagger_v0.16.1_windows_armv7.zip
+    windows_armv7: sha256:ef625c10337b917c544e266f0a86eb0b788f25423235039b8059176347a3c11f
+    # https://github.com/dagger/dagger/releases/download/v0.16.1/dagger_v0.16.1_windows_amd64.zip
+    windows_amd64: sha256:b5900c64474c109b9ed44d4e4a811d9c2b3108b8449bd5b9ae4a67e0f85827dc
