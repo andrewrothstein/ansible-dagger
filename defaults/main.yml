@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.16.1
+dagger_ver: 0.16.2
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -783,3 +783,21 @@ dagger_checksums:
     windows_armv7: sha256:ef625c10337b917c544e266f0a86eb0b788f25423235039b8059176347a3c11f
     # https://github.com/dagger/dagger/releases/download/v0.16.1/dagger_v0.16.1_windows_amd64.zip
     windows_amd64: sha256:b5900c64474c109b9ed44d4e4a811d9c2b3108b8449bd5b9ae4a67e0f85827dc
+  # https://github.com/dagger/dagger/releases/download/v0.16.2/checksums.txt
+  '0.16.2':
+    # https://github.com/dagger/dagger/releases/download/v0.16.2/dagger_v0.16.2_darwin_amd64.tar.gz
+    darwin_amd64: sha256:030daa71f10892077fc13a54d29a850e4364cbfca78afd190366fde9eaa1a6bd
+    # https://github.com/dagger/dagger/releases/download/v0.16.2/dagger_v0.16.2_darwin_arm64.tar.gz
+    darwin_arm64: sha256:7cc10edc8027cecac433f834114450278b442b66d280629119ccf7e43794b83f
+    # https://github.com/dagger/dagger/releases/download/v0.16.2/dagger_v0.16.2_linux_amd64.tar.gz
+    linux_amd64: sha256:6abfb30b92129e9159ced10fa83ff6f74a19afbdb1a8f2b42f4ca0f214cab198
+    # https://github.com/dagger/dagger/releases/download/v0.16.2/dagger_v0.16.2_linux_armv7.tar.gz
+    linux_armv7: sha256:ad275d8dd6e933769772008ff3aecf478ad1a510ad575c7baf0784cf83f89c89
+    # https://github.com/dagger/dagger/releases/download/v0.16.2/dagger_v0.16.2_linux_arm64.tar.gz
+    linux_arm64: sha256:c79753c23dfd3f6a615f75e6177aebb951a7cc26db73c75a1327245ea0037780
+    # https://github.com/dagger/dagger/releases/download/v0.16.2/dagger_v0.16.2_windows_arm64.zip
+    windows_arm64: sha256:88f9e146d5462ad69b29b9d86a17c13a5bb1a98084cbdbba600e6f81789e8974
+    # https://github.com/dagger/dagger/releases/download/v0.16.2/dagger_v0.16.2_windows_armv7.zip
+    windows_armv7: sha256:89f84e1bc3c9314bd521b24463e925ea4e1e9f050abafe128d9d05ccb0d468d0
+    # https://github.com/dagger/dagger/releases/download/v0.16.2/dagger_v0.16.2_windows_amd64.zip
+    windows_amd64: sha256:4fb3310b2bfc5884ab535f897bcedac948c3d8a0c4e6a824b12950acf4921ff6
