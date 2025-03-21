@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.16.3
+dagger_ver: 0.17.0
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -819,3 +819,21 @@ dagger_checksums:
     windows_armv7: sha256:1af97423a559cb0d865d80b88b0135b9c4a3d8415aabd933113e954c2493833e
     # https://github.com/dagger/dagger/releases/download/v0.16.3/dagger_v0.16.3_windows_amd64.zip
     windows_amd64: sha256:0458d69b8bfe18ec913636b6590da9ffdb4ec57dfe84c0f872b24bb43fff5336
+  # https://github.com/dagger/dagger/releases/download/v0.17.0/checksums.txt
+  '0.17.0':
+    # https://github.com/dagger/dagger/releases/download/v0.17.0/dagger_v0.17.0_darwin_amd64.tar.gz
+    darwin_amd64: sha256:c46b127d68d766288457168bbf8151d949b1f7b90c2fe91a625da356334c85a6
+    # https://github.com/dagger/dagger/releases/download/v0.17.0/dagger_v0.17.0_darwin_arm64.tar.gz
+    darwin_arm64: sha256:2243c8d23dd8f8d8275602bf12cad7a1835376736f9320550bc917b414396ce4
+    # https://github.com/dagger/dagger/releases/download/v0.17.0/dagger_v0.17.0_linux_amd64.tar.gz
+    linux_amd64: sha256:98fef23cfc869eb5e79a57653a5378a38e009abb230ad94ac8b374759b8cf53d
+    # https://github.com/dagger/dagger/releases/download/v0.17.0/dagger_v0.17.0_linux_armv7.tar.gz
+    linux_armv7: sha256:9a42f59394bcd2151b8407490f0bfaffddc2dd4649f1987ad910ccb181aaa1a0
+    # https://github.com/dagger/dagger/releases/download/v0.17.0/dagger_v0.17.0_linux_arm64.tar.gz
+    linux_arm64: sha256:2de6a31c4a2973be673dcabf5d476ee9a5ee367d6b3fcc2fcf8df28b24a000da
+    # https://github.com/dagger/dagger/releases/download/v0.17.0/dagger_v0.17.0_windows_arm64.zip
+    windows_arm64: sha256:ea54c2ca5015f2648ec4e1d846108f7996ca5fd8da3e1fdf155d23258e6db04e
+    # https://github.com/dagger/dagger/releases/download/v0.17.0/dagger_v0.17.0_windows_armv7.zip
+    windows_armv7: sha256:7ebf5d03ae6b816aa6dd990aa122c03c185f4454a8093447e6f4c52d93692b18
+    # https://github.com/dagger/dagger/releases/download/v0.17.0/dagger_v0.17.0_windows_amd64.zip
+    windows_amd64: sha256:e3605d4a0bcaca12fc7532242ce974213b3a77dfcd6229d755e32314c87942c4
