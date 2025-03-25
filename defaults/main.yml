@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.17.0
+dagger_ver: 0.17.1
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -837,3 +837,21 @@ dagger_checksums:
     windows_armv7: sha256:7ebf5d03ae6b816aa6dd990aa122c03c185f4454a8093447e6f4c52d93692b18
     # https://github.com/dagger/dagger/releases/download/v0.17.0/dagger_v0.17.0_windows_amd64.zip
     windows_amd64: sha256:e3605d4a0bcaca12fc7532242ce974213b3a77dfcd6229d755e32314c87942c4
+  # https://github.com/dagger/dagger/releases/download/v0.17.1/checksums.txt
+  '0.17.1':
+    # https://github.com/dagger/dagger/releases/download/v0.17.1/dagger_v0.17.1_darwin_amd64.tar.gz
+    darwin_amd64: sha256:af941590fc982b7ad53eacd1813571763ffb4767954a7ac77837b74dbc178cb5
+    # https://github.com/dagger/dagger/releases/download/v0.17.1/dagger_v0.17.1_darwin_arm64.tar.gz
+    darwin_arm64: sha256:90ff1d9fa5403c6cd10f15268d49c01a349eb00635102440e9c7588409396200
+    # https://github.com/dagger/dagger/releases/download/v0.17.1/dagger_v0.17.1_linux_amd64.tar.gz
+    linux_amd64: sha256:774b5ca2329ead61102d4568de3f2c2ca6bc02a23f9fe1e0b2091ccaba7a5dd7
+    # https://github.com/dagger/dagger/releases/download/v0.17.1/dagger_v0.17.1_linux_armv7.tar.gz
+    linux_armv7: sha256:ca23b2025bf933e8ee2614993cc4cbcb49eaf6aeed934d7a1516ff02c3bcfbb1
+    # https://github.com/dagger/dagger/releases/download/v0.17.1/dagger_v0.17.1_linux_arm64.tar.gz
+    linux_arm64: sha256:947fb9fae2c7edcc81380eb02317155f45d8e4d8dc564463df8ba8f867794cbe
+    # https://github.com/dagger/dagger/releases/download/v0.17.1/dagger_v0.17.1_windows_arm64.zip
+    windows_arm64: sha256:33d1f4ffca4f44566c7c85de9cd6b3762312b8fea0f0a19b8297051f9df1237e
+    # https://github.com/dagger/dagger/releases/download/v0.17.1/dagger_v0.17.1_windows_armv7.zip
+    windows_armv7: sha256:63a621e908f354f5b3aa7944d51be7c59e2474e9280a279709a599709375f821
+    # https://github.com/dagger/dagger/releases/download/v0.17.1/dagger_v0.17.1_windows_amd64.zip
+    windows_amd64: sha256:8430885b939906ffbb8a79e510cc1a56c5ef6f803975c0f07a077c646fcefa16
