@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.17.1
+dagger_ver: 0.18.1
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -855,3 +855,21 @@ dagger_checksums:
     windows_armv7: sha256:63a621e908f354f5b3aa7944d51be7c59e2474e9280a279709a599709375f821
     # https://github.com/dagger/dagger/releases/download/v0.17.1/dagger_v0.17.1_windows_amd64.zip
     windows_amd64: sha256:8430885b939906ffbb8a79e510cc1a56c5ef6f803975c0f07a077c646fcefa16
+  # https://github.com/dagger/dagger/releases/download/v0.18.1/checksums.txt
+  '0.18.1':
+    # https://github.com/dagger/dagger/releases/download/v0.18.1/dagger_v0.18.1_darwin_amd64.tar.gz
+    darwin_amd64: sha256:aef179aa6ec6211f74b21a8fc13240a23f94f0fa66ec31b580005245ef09fa2f
+    # https://github.com/dagger/dagger/releases/download/v0.18.1/dagger_v0.18.1_darwin_arm64.tar.gz
+    darwin_arm64: sha256:1f16ff0d64a7a18c6def02480a047fc8daad23f286b54a38df18a82f8f2829c7
+    # https://github.com/dagger/dagger/releases/download/v0.18.1/dagger_v0.18.1_linux_amd64.tar.gz
+    linux_amd64: sha256:6f051adec4b2b0b8ab9b8c04f911801eb763550ce781bcf89f1a832bc5a0755f
+    # https://github.com/dagger/dagger/releases/download/v0.18.1/dagger_v0.18.1_linux_armv7.tar.gz
+    linux_armv7: sha256:bfa96b8c382d27eb4eb631cfff5dee953155f501ce64ea410f5be2c2f6cfa9a1
+    # https://github.com/dagger/dagger/releases/download/v0.18.1/dagger_v0.18.1_linux_arm64.tar.gz
+    linux_arm64: sha256:992e72207fc9b33146104ea11358a5c8400c9130e345c2e5ec05a40b3c2c1bc1
+    # https://github.com/dagger/dagger/releases/download/v0.18.1/dagger_v0.18.1_windows_arm64.zip
+    windows_arm64: sha256:79bf201c9a1732317ebc27e7a94d67776585da2bc42d25f81e943447b5b4033c
+    # https://github.com/dagger/dagger/releases/download/v0.18.1/dagger_v0.18.1_windows_armv7.zip
+    windows_armv7: sha256:5d1c6fd13377e86d9329ae8802f8c097a68b5bfef533fff458bd0b94d6da9866
+    # https://github.com/dagger/dagger/releases/download/v0.18.1/dagger_v0.18.1_windows_amd64.zip
+    windows_amd64: sha256:343eda4b37a22ef6bd57a286b0e95e2cf2b44ce85a754961e60a43687b48721b
