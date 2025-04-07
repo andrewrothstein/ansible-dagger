@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.18.1
+dagger_ver: 0.18.2
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -873,3 +873,21 @@ dagger_checksums:
     windows_armv7: sha256:5d1c6fd13377e86d9329ae8802f8c097a68b5bfef533fff458bd0b94d6da9866
     # https://github.com/dagger/dagger/releases/download/v0.18.1/dagger_v0.18.1_windows_amd64.zip
     windows_amd64: sha256:343eda4b37a22ef6bd57a286b0e95e2cf2b44ce85a754961e60a43687b48721b
+  # https://github.com/dagger/dagger/releases/download/v0.18.2/checksums.txt
+  '0.18.2':
+    # https://github.com/dagger/dagger/releases/download/v0.18.2/dagger_v0.18.2_darwin_amd64.tar.gz
+    darwin_amd64: sha256:87781fc828daead61e554ff9900334e9977fd2740ca3eed649e79b2650e3999a
+    # https://github.com/dagger/dagger/releases/download/v0.18.2/dagger_v0.18.2_darwin_arm64.tar.gz
+    darwin_arm64: sha256:7dad911e1a2d57f4574a04e552b17f11d5dc86b17fc30aaea146d6b6d4a0c423
+    # https://github.com/dagger/dagger/releases/download/v0.18.2/dagger_v0.18.2_linux_amd64.tar.gz
+    linux_amd64: sha256:88862b288608a8cfebf9c3f818a4bbc2a928dd113345a4c0880c823266e306a8
+    # https://github.com/dagger/dagger/releases/download/v0.18.2/dagger_v0.18.2_linux_armv7.tar.gz
+    linux_armv7: sha256:bbbd462188cbf6bef04686529502f60dbc0de7b8ada9502eec0d3b9344ab85eb
+    # https://github.com/dagger/dagger/releases/download/v0.18.2/dagger_v0.18.2_linux_arm64.tar.gz
+    linux_arm64: sha256:164014ccc2ed0696d3e1f994e65b776671b8f8eea4bab1469bddcc3af587a3d4
+    # https://github.com/dagger/dagger/releases/download/v0.18.2/dagger_v0.18.2_windows_arm64.zip
+    windows_arm64: sha256:67361d996cd3f5de5c937a692594c769e60bcd96577af78cf2abcedf864ba13a
+    # https://github.com/dagger/dagger/releases/download/v0.18.2/dagger_v0.18.2_windows_armv7.zip
+    windows_armv7: sha256:b114836f2d8e9d3f75c49b054dff29e293a2f6033b5d94e26a74059f083953fc
+    # https://github.com/dagger/dagger/releases/download/v0.18.2/dagger_v0.18.2_windows_amd64.zip
+    windows_amd64: sha256:a48de3577caa4e591045e74381a6a01524b658c95a0306fcfd4fe8796ded7d57
