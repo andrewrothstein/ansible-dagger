@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.18.3
+dagger_ver: 0.18.4
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -909,3 +909,21 @@ dagger_checksums:
     windows_armv7: sha256:b7b65db0538baa7d00b8680e7cbcdfe190d0e2c34b4dbe62cd2c56861b3c4410
     # https://github.com/dagger/dagger/releases/download/v0.18.3/dagger_v0.18.3_windows_amd64.zip
     windows_amd64: sha256:3c2777c6213f6971a9a0f058e64c76951d46c9d1a847b86d7d204e6de27d089f
+  # https://github.com/dagger/dagger/releases/download/v0.18.4/checksums.txt
+  '0.18.4':
+    # https://github.com/dagger/dagger/releases/download/v0.18.4/dagger_v0.18.4_darwin_amd64.tar.gz
+    darwin_amd64: sha256:77f1dd080d0b412da0ccf218e59303f34c8a19c9d6e3b9e5269c78fa543a7f6f
+    # https://github.com/dagger/dagger/releases/download/v0.18.4/dagger_v0.18.4_darwin_arm64.tar.gz
+    darwin_arm64: sha256:b73dd04d2e441aec47eedb0e2aeb9c5d9eb07b2c708f4e0b80b7f4088ebac6b6
+    # https://github.com/dagger/dagger/releases/download/v0.18.4/dagger_v0.18.4_linux_amd64.tar.gz
+    linux_amd64: sha256:95eaeec78fd901e7ff12417215646bb5551f6eeb4f4e20f621eb6a1bcd53c2b6
+    # https://github.com/dagger/dagger/releases/download/v0.18.4/dagger_v0.18.4_linux_armv7.tar.gz
+    linux_armv7: sha256:dc71ab6ea58460eb0128d21b69df44e3f9ac8019e3ff85c039f7f5bbb0779549
+    # https://github.com/dagger/dagger/releases/download/v0.18.4/dagger_v0.18.4_linux_arm64.tar.gz
+    linux_arm64: sha256:3105a34d596ce75059227370f7a489e045c88495282eda44cbc04100ee64adb2
+    # https://github.com/dagger/dagger/releases/download/v0.18.4/dagger_v0.18.4_windows_arm64.zip
+    windows_arm64: sha256:16563e175724c73d0061c99a09a3815af80fdfdd7367fa3f75f2869f9102d0fe
+    # https://github.com/dagger/dagger/releases/download/v0.18.4/dagger_v0.18.4_windows_armv7.zip
+    windows_armv7: sha256:fa8798c80ae0c3eab610d25fd617f0d8187b33445c20e0975a3483dd143eab43
+    # https://github.com/dagger/dagger/releases/download/v0.18.4/dagger_v0.18.4_windows_amd64.zip
+    windows_amd64: sha256:e593fb66f1983b924b527aef5eda09e403d6cbcdab0e0c141cf41fa172410de0
