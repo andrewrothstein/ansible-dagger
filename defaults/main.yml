@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.19.7
+dagger_ver: 0.19.8
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -1323,3 +1323,21 @@ dagger_checksums:
     windows_armv7: sha256:c2ddb16dc243f469aed41a0e443b5033e15a9e590d7e3339d3b839ac9e9801da
     # https://github.com/dagger/dagger/releases/download/v0.19.7/dagger_v0.19.7_windows_amd64.zip
     windows_amd64: sha256:575349aa8da6c890fc38b8e220b5a5f0a3bbda0d41b871b5ba743062b6572e93
+  # https://github.com/dagger/dagger/releases/download/v0.19.8/checksums.txt
+  '0.19.8':
+    # https://github.com/dagger/dagger/releases/download/v0.19.8/dagger_v0.19.8_darwin_amd64.tar.gz
+    darwin_amd64: sha256:0621e6057d1fb8d54de635375a06354d7e4de3e1984347f0a072cccdc7a8b86d
+    # https://github.com/dagger/dagger/releases/download/v0.19.8/dagger_v0.19.8_darwin_arm64.tar.gz
+    darwin_arm64: sha256:f10ccd2105e80449cfae1f31cb97166c9ddeb39e87694b216b32776d418234b9
+    # https://github.com/dagger/dagger/releases/download/v0.19.8/dagger_v0.19.8_linux_amd64.tar.gz
+    linux_amd64: sha256:4c7e1f2eda06bf93e55af1fc343a2cd987b5a4d45a867b9397cf6e4450287d65
+    # https://github.com/dagger/dagger/releases/download/v0.19.8/dagger_v0.19.8_linux_armv7.tar.gz
+    linux_armv7: sha256:e7ebbb0209c3aa8d29082b2e811b166bf4270cc0aa35ff774c2160c34baac991
+    # https://github.com/dagger/dagger/releases/download/v0.19.8/dagger_v0.19.8_linux_arm64.tar.gz
+    linux_arm64: sha256:5b735493dff3e877e8be336e6d080c2f9eb00a5cf1043e9aaa251728f1054e00
+    # https://github.com/dagger/dagger/releases/download/v0.19.8/dagger_v0.19.8_windows_arm64.zip
+    windows_arm64: sha256:ae7e9807fd2cf0eb0e4305337dab4a5a1f96b83f9040de5c07eb7fc7b40f4109
+    # https://github.com/dagger/dagger/releases/download/v0.19.8/dagger_v0.19.8_windows_armv7.zip
+    windows_armv7: sha256:3ab72dd06e72e26087b660a1e5bb31160c050d42f14bb0877317c99d4a5523c5
+    # https://github.com/dagger/dagger/releases/download/v0.19.8/dagger_v0.19.8_windows_amd64.zip
+    windows_amd64: sha256:49f8c579ab6442a662c88440ab363aab3537f1729c1a782b64ea4097f47fca1e
