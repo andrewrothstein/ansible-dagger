@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.19.8
+dagger_ver: 0.19.9
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -1341,3 +1341,21 @@ dagger_checksums:
     windows_armv7: sha256:3ab72dd06e72e26087b660a1e5bb31160c050d42f14bb0877317c99d4a5523c5
     # https://github.com/dagger/dagger/releases/download/v0.19.8/dagger_v0.19.8_windows_amd64.zip
     windows_amd64: sha256:49f8c579ab6442a662c88440ab363aab3537f1729c1a782b64ea4097f47fca1e
+  # https://github.com/dagger/dagger/releases/download/v0.19.9/checksums.txt
+  '0.19.9':
+    # https://github.com/dagger/dagger/releases/download/v0.19.9/dagger_v0.19.9_darwin_amd64.tar.gz
+    darwin_amd64: sha256:1c0bf0a1f8bdc1a69df13e5b006f60ff1063b8d609d38b300cb32837528f6ca3
+    # https://github.com/dagger/dagger/releases/download/v0.19.9/dagger_v0.19.9_darwin_arm64.tar.gz
+    darwin_arm64: sha256:084f80c397010a415d20b131b385fc50e41f09223caca0e1535950585128804c
+    # https://github.com/dagger/dagger/releases/download/v0.19.9/dagger_v0.19.9_linux_amd64.tar.gz
+    linux_amd64: sha256:02e5e979f74504e0080a6dae9db717cc000429794c10d429b8a4677a52dd5939
+    # https://github.com/dagger/dagger/releases/download/v0.19.9/dagger_v0.19.9_linux_armv7.tar.gz
+    linux_armv7: sha256:6e14b9c25119689ebeaa28bb4fdc1f96a9df981f936f553d93fd1de20f11b3f5
+    # https://github.com/dagger/dagger/releases/download/v0.19.9/dagger_v0.19.9_linux_arm64.tar.gz
+    linux_arm64: sha256:f1c3c6a5f208fce3a1b1d4cd83478a2c4b2e27126e269011619d5a82a5fb3886
+    # https://github.com/dagger/dagger/releases/download/v0.19.9/dagger_v0.19.9_windows_arm64.zip
+    windows_arm64: sha256:b2e70669479b0bb76ad20d06d7c7c3c5f5aecbfaf5d707beb7071caa19678ae8
+    # https://github.com/dagger/dagger/releases/download/v0.19.9/dagger_v0.19.9_windows_armv7.zip
+    windows_armv7: sha256:161721ca1ffcb8915e7729af9e5ab0d3e0b7b534feb6fe2c9e5643c87735667e
+    # https://github.com/dagger/dagger/releases/download/v0.19.9/dagger_v0.19.9_windows_amd64.zip
+    windows_amd64: sha256:005ab6dc14af8d4c86a84cabe32872acefd57140a849c039e52c708bc243693e
