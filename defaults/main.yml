@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.19.9
+dagger_ver: 0.19.10
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -1359,3 +1359,21 @@ dagger_checksums:
     windows_armv7: sha256:161721ca1ffcb8915e7729af9e5ab0d3e0b7b534feb6fe2c9e5643c87735667e
     # https://github.com/dagger/dagger/releases/download/v0.19.9/dagger_v0.19.9_windows_amd64.zip
     windows_amd64: sha256:005ab6dc14af8d4c86a84cabe32872acefd57140a849c039e52c708bc243693e
+  # https://github.com/dagger/dagger/releases/download/v0.19.10/checksums.txt
+  '0.19.10':
+    # https://github.com/dagger/dagger/releases/download/v0.19.10/dagger_v0.19.10_darwin_amd64.tar.gz
+    darwin_amd64: sha256:aa7d77923ecb2c4b0c801b4f0f1082cf7e34a89d0b3ff7e5185dfb6f5012c48a
+    # https://github.com/dagger/dagger/releases/download/v0.19.10/dagger_v0.19.10_darwin_arm64.tar.gz
+    darwin_arm64: sha256:16c749c09fac532685214b0007706d3dff2128ac3ecef006288caf39101f2427
+    # https://github.com/dagger/dagger/releases/download/v0.19.10/dagger_v0.19.10_linux_amd64.tar.gz
+    linux_amd64: sha256:3c9dfb11e8df8a21133843789a9dc9c9477176e45ebf00442a38bcf9cba4920a
+    # https://github.com/dagger/dagger/releases/download/v0.19.10/dagger_v0.19.10_linux_armv7.tar.gz
+    linux_armv7: sha256:750c44787b995fe6cbbf799af45fa4c46fe4e65c5978ee7ea01d5ffde3946e30
+    # https://github.com/dagger/dagger/releases/download/v0.19.10/dagger_v0.19.10_linux_arm64.tar.gz
+    linux_arm64: sha256:2e505f6d1c5985a00d6c6a3a126761c4bfb5ba128186565921ac402520bad8c6
+    # https://github.com/dagger/dagger/releases/download/v0.19.10/dagger_v0.19.10_windows_arm64.zip
+    windows_arm64: sha256:111c0b7428145a51013d8d65a14a12429d6a8ee4f065aac8a995b95a0f0374c6
+    # https://github.com/dagger/dagger/releases/download/v0.19.10/dagger_v0.19.10_windows_armv7.zip
+    windows_armv7: sha256:a3faf358c695ba9d5f64cfafee70fced0f97488dd8b9625ebfcf73065c0f9c4c
+    # https://github.com/dagger/dagger/releases/download/v0.19.10/dagger_v0.19.10_windows_amd64.zip
+    windows_amd64: sha256:86a115a54a82bbd7897f8f5c59c3a85ef1fb41b5c822ca2c8958107ed7044282
