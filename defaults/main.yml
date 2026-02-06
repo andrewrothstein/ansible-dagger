@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.19.10
+dagger_ver: 0.19.11
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -1377,3 +1377,21 @@ dagger_checksums:
     windows_armv7: sha256:a3faf358c695ba9d5f64cfafee70fced0f97488dd8b9625ebfcf73065c0f9c4c
     # https://github.com/dagger/dagger/releases/download/v0.19.10/dagger_v0.19.10_windows_amd64.zip
     windows_amd64: sha256:86a115a54a82bbd7897f8f5c59c3a85ef1fb41b5c822ca2c8958107ed7044282
+  # https://github.com/dagger/dagger/releases/download/v0.19.11/checksums.txt
+  '0.19.11':
+    # https://github.com/dagger/dagger/releases/download/v0.19.11/dagger_v0.19.11_darwin_amd64.tar.gz
+    darwin_amd64: sha256:d7a2cf9608e5ba744bdcf18cd3cc7db2e43fc8a3f287f31d444994fa8fca5b47
+    # https://github.com/dagger/dagger/releases/download/v0.19.11/dagger_v0.19.11_darwin_arm64.tar.gz
+    darwin_arm64: sha256:02d69381a07abd4314f20ae4c99d05c4535e06b895a79f0fd5b6fc5abb8d3a1c
+    # https://github.com/dagger/dagger/releases/download/v0.19.11/dagger_v0.19.11_linux_amd64.tar.gz
+    linux_amd64: sha256:3978acbd6eca25e70d4a9f4d8728771669f4c33a076ce357892463f444601d64
+    # https://github.com/dagger/dagger/releases/download/v0.19.11/dagger_v0.19.11_linux_armv7.tar.gz
+    linux_armv7: sha256:dc10cb8fe00abeb2a67af998d19e916175c49122e95dc7254da6d446954c6f56
+    # https://github.com/dagger/dagger/releases/download/v0.19.11/dagger_v0.19.11_linux_arm64.tar.gz
+    linux_arm64: sha256:17138a6a5aaf0dee78550cf39831de60c9a59516530467a9e51a938c21ee2e4e
+    # https://github.com/dagger/dagger/releases/download/v0.19.11/dagger_v0.19.11_windows_arm64.zip
+    windows_arm64: sha256:2723d0cd9c2f054970bb68788cf13c3ff0bf448d2b3cc1732a2ae1c31084b84f
+    # https://github.com/dagger/dagger/releases/download/v0.19.11/dagger_v0.19.11_windows_armv7.zip
+    windows_armv7: sha256:baee456c103cf83842c9f660973ca0b2ed402a66b25c7c4c1336aa2cc9f5aa88
+    # https://github.com/dagger/dagger/releases/download/v0.19.11/dagger_v0.19.11_windows_amd64.zip
+    windows_amd64: sha256:1c05dbbee3951fa3b1e1a3832100d488935420329bbda54691b66f7e83881101
