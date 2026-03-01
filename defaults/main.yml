@@ -1,6 +1,6 @@
 ---
 # defaults file for dagger
-dagger_ver: 0.19.11
+dagger_ver: 0.20.0
 dagger_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -1395,3 +1395,19 @@ dagger_checksums:
     windows_armv7: sha256:baee456c103cf83842c9f660973ca0b2ed402a66b25c7c4c1336aa2cc9f5aa88
     # https://github.com/dagger/dagger/releases/download/v0.19.11/dagger_v0.19.11_windows_amd64.zip
     windows_amd64: sha256:1c05dbbee3951fa3b1e1a3832100d488935420329bbda54691b66f7e83881101
+  # https://github.com/dagger/dagger/releases/download/v0.20.0/checksums.txt
+  '0.20.0':
+    # https://github.com/dagger/dagger/releases/download/v0.20.0/dagger_v0.20.0_darwin_amd64.tar.gz
+    darwin_amd64: sha256:2562511c5e5285cf22917b41609c2be6644dd08b539b370818b2a2694db5dc32
+    # https://github.com/dagger/dagger/releases/download/v0.20.0/dagger_v0.20.0_darwin_arm64.tar.gz
+    darwin_arm64: sha256:2a891a0810e6271ab6b24423da4bae953cf5196f03201b2ea60eda2ccac3eee2
+    # https://github.com/dagger/dagger/releases/download/v0.20.0/dagger_v0.20.0_linux_amd64.tar.gz
+    linux_amd64: sha256:b32c20723f9f5121a7dfee50682e0032b25b997febb4811481cfce2074a88b02
+    # https://github.com/dagger/dagger/releases/download/v0.20.0/dagger_v0.20.0_linux_armv7.tar.gz
+    linux_armv7: sha256:a70ac003f5b1be85576af46878a58e18787d05acc55f3500ebb5c1c368266548
+    # https://github.com/dagger/dagger/releases/download/v0.20.0/dagger_v0.20.0_linux_arm64.tar.gz
+    linux_arm64: sha256:f6c1390a070adc29e6f8e878a2dc2bf40885a5289bc1c0adab75c2fd84513005
+    # https://github.com/dagger/dagger/releases/download/v0.20.0/dagger_v0.20.0_windows_arm64.zip
+    windows_arm64: sha256:b3d596d54e733ebc3f8806f0f52a37058b4acb7c5b2e3ea58664ee24174d1869
+    # https://github.com/dagger/dagger/releases/download/v0.20.0/dagger_v0.20.0_windows_amd64.zip
+    windows_amd64: sha256:6363dacd70046d1a50bf77f05cb5056eadf5c062c9ae3d6cf7e11388f56d92f6
